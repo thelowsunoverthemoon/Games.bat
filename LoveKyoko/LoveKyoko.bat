@@ -9,7 +9,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION ENABLEEXTENSIONS
 TITLE Love, Kyoko
 MODE 70, 35
 CALL :MACROS
-::° ± ² Û
+::Â° Â± Â² Ã›
 ::sur <x> <y>, unit <ata> <pla> <char> <hp> <attack> <special>, special <area> <effect u> <effect e> <time b/w particle> <time b/w frame> <frames>
 ::c= colour, p = display, d = dummy variable, s = surround, u = unit, e = enemy, z = special
 SET "logo=%col:c=170;47;212%Love, %col:c=169;132;181%%dn:n=1%%nx:n=8%__%nx:n=8%__%dn:n=1%%bk:n=22%^|__/ \ / /  \ ^|__/ /  \%dn:n=1%%bk:n=23%^|  \  ^|  \__/ ^|  \ \__/"
@@ -31,36 +31,36 @@ SET framerate=FOR /L %%J in (1,#,1000000) DO REM
 ::Idenshi Zerstorer BioOrchid-473 Cykox Leistung MekaMeka
 SET "u[all]=Idenshi Zerstorer BioOrchid-473 Cykox Leistung MekaMeka Tsenga"
 SET "e[all]=Zombie Ghost Snake Demon Witch Mummy"
-SET "z[Shiri]=non$"spe]=Tembo" "cha]=%col:c=129;219;173%B" "ata]=lcr" "pla]=xcr"$""$100$1000000$"q203w204w186m%bk:n=1%Ã%up:n=1%Â%dn:n=1%´%bk:n=2%%dn:n=1%Á""
-SET "z[Tembo]=non$"spe]=Shiri" "cha]=%col:c=203;204;186%T" "ata]=xcr" "pla]=lcr"$""$100$1000000$"q129w219w173m%bk:n=1%Ã%up:n=1%Â%dn:n=1%´%bk:n=2%%dn:n=1%Á""
+SET "z[Shiri]=non$"spe]=Tembo" "cha]=%col:c=129;219;173%B" "ata]=lcr" "pla]=xcr"$""$100$1000000$"q203w204w186m%bk:n=1%Ãƒ%up:n=1%Ã‚%dn:n=1%Â´%bk:n=2%%dn:n=1%Ã""
+SET "z[Tembo]=non$"spe]=Shiri" "cha]=%col:c=203;204;186%T" "ata]=xcr" "pla]=lcr"$""$100$1000000$"q129w219w173m%bk:n=1%Ãƒ%up:n=1%Ã‚%dn:n=1%Â´%bk:n=2%%dn:n=1%Ã""
 SET "z[Reborn]=cro$"#hp]=5" "#pow]=1" "cha]=%col:c=163;144;93%m%bk:n=2%%up:n=1%%col:c=93;245;224%-*-"$""$100$1000000$"q59w72w168m\ / / \""
 SET "z[MagicOrbs]=lcr$"nam]=Sorcerer"$"#hp]-=3"$50$1000000$"q12w18w145mOq98w147w227m^> q12w18w145mOq98w147w227m^> %bk:n=1%^<q12w18w145mO %bk:n=1%q98w147w227m^<q12w18w145mO""
 SET "z[Consume]=non$"#hp]+=1" "#pow]=4" "cha]=%bk:n=2%%col:c=79;36;38%/\%col:c=181;22;30%D%col:c=79;36;38%/\"$""$1000000$100$"q150w21w28m%bk:n=1%6%up:n=1%6%dn:n=1%6""
 SET "z[VenomStrike]=xcr$""$"#pow]=1"$100$1000000$"q62w156w28m\ q56w217w102m\ / q62w156w28m/ q56w217w102m/ / \ q62w156w28m\""
-SET "z[MekaBomb]=min$"#hp]-=1"$"#pow]-=3"$100$1000$"q59w235w139mÔ Ô ¾ Ô ¾ ¾" "q146w247w192mÖ Ö · Ö · ·" "q212w255w231m¸ ¸ Õ ¸ Õ Õ" "q134w227w196m%bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\""
+SET "z[MekaBomb]=min$"#hp]-=1"$"#pow]-=3"$100$1000$"q59w235w139mÃ” Ã” Â¾ Ã” Â¾ Â¾" "q146w247w192mÃ– Ã– Â· Ã– Â· Â·" "q212w255w231mÂ¸ Â¸ Ã• Â¸ Ã• Ã•" "q134w227w196m%bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\""
 SET "z[Leech]=sur$"#pow]+=1"$"#hp]-=2"$100$1000000$"q153w203w224mg g g g g g" "q75w99w150mg g g g g g" "q65w38w115mg g g g g g""
 SET "z[EnergyBurst]=min$""$"#hp]-=1" "de]=1"$50$50$"q222w220w95m- q235w168w52m/ \ \ / q222w220w95m-" "q181w80w43m~ ~ ~ ~ ~ ~""
 SET "z[Enhance]=non$"#pow]+=3"$""$1000000$1000000$"q255w186w221m%bk:n=1%^<%up:n=1%^^%dn:n=1%^>%bk:n=2%%dn:n=1%v""
-SET "z[Tozin]=squ$""$"#hp]-=2" "#pow]+=1"$100$1000000$"q81w26w115mØ Ø Ø Ø Ø Ø""
-SET "z[Synthesis]=cro$"#hp]+=2" "nam]=Orchid-473"$"#hp]-=1" "#pow]-=1"$100$1000000$"q87w66w245m%dn:n=1%Ì %dn:n=1%¹" "q184w255w237mÉ » È ¼""
-SET "z[TitanBlade]=sur$"#pow]+=1"$"#hp]-=2"$50$1000000$"q82w196w181m³ q89w227w209m\ q66w255w230m/ q82w196w181m³ q89w227w209m/ q66w255w230m\" "q168w54w50mo q194w186w70mo o q168w54w50mo q194w186w70mo o""
-SET "z[IonMissile]=lon$""$"#hp]-=4"$1000000$10$"q66w164w255m^< ^> v ^^" "q83w252w216m%bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\ %bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\"
-SET "e[Zombie]=sur$sur$%bk:n=1%%col:c=91;112;163%ÚV¿$4$3$Tozin$hp G$hp#2,LEQ"
+SET "z[Tozin]=squ$""$"#hp]-=2" "#pow]+=1"$100$1000000$"q81w26w115mÃ˜ Ã˜ Ã˜ Ã˜ Ã˜ Ã˜""
+SET "z[Synthesis]=cro$"#hp]+=2" "nam]=Orchid-473"$"#hp]-=1" "#pow]-=1"$100$1000000$"q87w66w245m%dn:n=1%ÃŒ %dn:n=1%Â¹" "q184w255w237mÃ‰ Â» Ãˆ Â¼""
+SET "z[TitanBlade]=sur$"#pow]+=1"$"#hp]-=2"$50$1000000$"q82w196w181mÂ³ q89w227w209m\ q66w255w230m/ q82w196w181mÂ³ q89w227w209m/ q66w255w230m\" "q168w54w50mo q194w186w70mo o q168w54w50mo q194w186w70mo o""
+SET "z[IonMissile]=lon$""$"#hp]-=4"$1000000$10$"q66w164w255m^< ^> v ^^" "q83w252w216m%bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\ %bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\"
+SET "e[Zombie]=sur$sur$%bk:n=1%%col:c=91;112;163%ÃšVÂ¿$4$3$Tozin$hp G$hp#2,LEQ"
 SET "e[Witch]=lcr$non$%col:c=39;77;138%W$5$4$MagicOrbs$hp G"
 SET "e[Snake]=xcr$ud$%col:c=32;94;24%s$4$2$VenomStrike$pow G"
 SET "e[Mummy]=min$wid$%col:c=163;144;93%m%bk:n=1%%up:n=1%%col:c=114;150;145%*$2$6$Reborn$pow L$pow#5,LEQ"
 SET "e[Ghost]=cro$min$%col:c=115;117;245%g%col:c=98;150;166%%dn:n=1%%bk:n=1%~$3$2$Leech$hp L"
 SET "e[Demon]=lon$squ$%bk:n=1%%col:c=107;56;30%\%col:c=247;49;59%d%col:c=107;56;30%/$4$2$Consume$pow L$hp#3,LEQ"
 SET "u[Tsenga]=xcr$lcr$%col:c=203;204;186%T$4$1$Shiri"
-SET "u[MekaMeka]=xcr$wid$%bk:n=1%%col:c=88;219;103%Ô%col:c=142;230;179%M%col:c=88;219;103%¾$5$4$MekaBomb"
+SET "u[MekaMeka]=xcr$wid$%bk:n=1%%col:c=88;219;103%Ã”%col:c=142;230;179%M%col:c=88;219;103%Â¾$5$4$MekaBomb"
 SET "u[Leistung]=cro$ud$%col:c=194;183;85%L$5$5$EnergyBurst"
-SET "u[Cykox]=ud$min$%col:c=138;78;123%C%bk:n=1%%dn:n=1%%col:c=235;52;189%Ê%up:n=1%$6$0$Enhance"
+SET "u[Cykox]=ud$min$%col:c=138;78;123%C%bk:n=1%%dn:n=1%%col:c=235;52;189%ÃŠ%up:n=1%$6$0$Enhance"
 SET "u[Idenshi]=wid$sur$%col:c=66;245;155%@$5$2$TitanBlade"
 SET "u[Zerstorer]=sur$cro$%col:c=141;25;230%Z$3$3$IonMissile"
 SET "u[BioOrchid-473]=lon$squ$%bk:n=1%%col:c=237;163;255%}%col:c=153;187;204%o%col:c=237;163;255%{$3$4$Synthesis"
 SET /A "x[map]=11","y[map]=10","p[bak]=(x[map]*3)+(x[map]-1)","selected=1","u[en]=0", "u[num]=7", "e[num]=6"
 FOR /L %%X in (1, 1, %x[map]%) DO (
-    SET "d[box]=!d[box]!ÄÄÄÄ"
+    SET "d[box]=!d[box]!Ã„Ã„Ã„Ã„"
     SET /A "d[num]=!RANDOM!*3/32768+1"
     FOR %%Q in (!d[num]!) DO (
         SET "x[hex]=!x[hex]!%ESC%[38;2;!c[he%%Q]!m/ \_"
@@ -69,7 +69,7 @@ FOR /L %%X in (1, 1, %x[map]%) DO (
 SET "p[map]=%x[hex]:/ \_= _  %%bk:n=1%"
 SET "x[hex]=%x[hex]:~0,-1%!bk:n=%p[bak]%!%dn:n=1%%x[hex]:/ \_=\_/ %"
 FOR /L %%Y in (1, 1, %y[map]%) DO (
-    SET "d[sibox]=!d[sibox]!³%dn:n=1%%bk:n=1%³%dn:n=1%%bk:n=1%"
+    SET "d[sibox]=!d[sibox]!Â³%dn:n=1%%bk:n=1%Â³%dn:n=1%%bk:n=1%"
     SET "p[map]=!p[map]!!bk:n=%p[bak]%!%dn:n=1%%x[hex]:~0,-1%"
 )
 (MORE <%~nx0:HighScore) && (
@@ -103,7 +103,7 @@ FOR /L %%# in () DO (
     SET /A "d[num]=u[en]*((p[bak]-2)/20)"
     FOR /F "tokens=1-2" %%X in ("!selected! !d[num]!") DO (
         SET "p[box]=!d[box]:~0,%%Y!%ESC%[0m!d[box]:~%%Y!"
-        ECHO %ESC%[2J%ESC%[4;5H%col:c=214;0;255%%ESC%[4mD A Y  %u[day]%%ESC%[24m %col:c=209;219;221%%ESC%[5;1H%p[estat]%%ESC%[u%ESC%[5d%bk:n=1%%d[sibox]%ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÙ%dn:n=1%%bk:n=9%³%dn:n=1%%bk:n=8%[N] : Notebook%ESC%[u%ESC%[5d%nx:n=15%%d[sibox]%%ESC%[u%ESC%[4d%bk:n=1%ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿%ESC%[5;5H%p[map]%%dn:n=1%%dn:n=1%%ESC%[5G%col:c=209;219;221%Ú%col:c=82;3;252%!p[box]:~0,-2!¿%dn:n=1%%bk:n=1%%col:c=209;219;221%ÃÄ[D]%ESC%[5G³ !u[%%Xcha]! !u[%%Xnam]! %col:c=209;219;221%³ !u[%%Xhp]! ^<--^> !u[%%Xpow]! ³ !u[%%Xspe]!%dn:n=1%%ESC%[5GÀ%col:c=82;3;252%!p[box]:~0,-2!%col:c=209;219;221%Ù%dn:n=1%%ESC%[5G%ESC%[s[A] : Move - [B] : Attack - [C] : Switch%p[unit]%
+        ECHO %ESC%[2J%ESC%[4;5H%col:c=214;0;255%%ESC%[4mD A Y  %u[day]%%ESC%[24m %col:c=209;219;221%%ESC%[5;1H%p[estat]%%ESC%[u%ESC%[5d%bk:n=1%%d[sibox]%Ã€Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã‚Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã™%dn:n=1%%bk:n=9%Â³%dn:n=1%%bk:n=8%[N] : Notebook%ESC%[u%ESC%[5d%nx:n=15%%d[sibox]%%ESC%[u%ESC%[4d%bk:n=1%ÃšÃ„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Ã„Â¿%ESC%[5;5H%p[map]%%dn:n=1%%dn:n=1%%ESC%[5G%col:c=209;219;221%Ãš%col:c=82;3;252%!p[box]:~0,-2!Â¿%dn:n=1%%bk:n=1%%col:c=209;219;221%ÃƒÃ„[D]%ESC%[5GÂ³ !u[%%Xcha]! !u[%%Xnam]! %col:c=209;219;221%Â³ !u[%%Xhp]! ^<--^> !u[%%Xpow]! Â³ !u[%%Xspe]!%dn:n=1%%ESC%[5GÃ€%col:c=82;3;252%!p[box]:~0,-2!%col:c=209;219;221%Ã™%dn:n=1%%ESC%[5G%ESC%[s[A] : Move - [B] : Attack - [C] : Switch%p[unit]%
         CHOICE /C ABCDN /N>NUL
         IF !errorlevel! EQU 5 (
             FOR /L %%L in (1, 1, %e[cyb]%) DO (
@@ -318,7 +318,7 @@ FOR /L %%Q in (1, 1, %d[num]%) DO (
     ECHO %col:c=183;209;159%%ESC%[!y[d]!;!x[d]!Ho
     %framerate:#=50%
 )
-ECHO %col:c=240;26;26%%ESC%[%y[d]%;%x[d]%H%bk:n=1%-%bk:n=1%%up:n=1%\³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/³\
+ECHO %col:c=240;26;26%%ESC%[%y[d]%;%x[d]%H%bk:n=1%-%bk:n=1%%up:n=1%\Â³/%dn:n=1%%bk:n=1%-%dn:n=1%%bk:n=3%/Â³\
 %framerate:#=25%
 GOTO :EOF
 
