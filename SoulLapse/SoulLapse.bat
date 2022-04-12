@@ -6,7 +6,7 @@ MODE 64, 45
 TITLE Soul Lapse
 CALL :MACROS
 ::MAKE MORE MACROS
-::° ± ² Û
+::Â° Â± Â² Ã›
 ::d = dummy, cre = creature, p = display, en = enemy, re = relic, aug = augment
 ::Inner Realm like earth (east mountains), Outer Realm like heaven (Palace of Stars), Hell
 ::Health Attack Augment  Character Description
@@ -16,66 +16,66 @@ SET "logo=%col:c=145;104;189%%nx:n=2%_____%nx:n=15%.%dn:n=1%%bk:n=22%(%nx:n=8%__
 ::FOr level strong weak high attakc low attack
 ::Health, attack, augment, sprite, health to activate, critical, description, (enemy only) style, (character only) space
 SET "creatures=Nakabasu Katachi Jimoqo Mei-mei Kaguya PrincessHimako -LightFuyumi- Atsuko Emiko Chizuru NikuyaSan MaidenIchika LadyRenga YamaYami"
-SET "cre[LadyRenga]=14$0$Autumn$%col:c=201;247;176%Û%bk:n=1%%dn:n=1%%col:c=86;150;51%ß%up:n=1%%col:c=37;92;6%Í¼%bk:n=4%%up:n=1%%col:c=27;224;126%\%col:c=45;99;72%|%col:c=27;224;126%/%col:c=37;92;6%ÉÎ%col:c=130;207;43%<%up:n=1%%bk:n=2%v%dn:n=2%$6$10$"Once druid-priestess of the Imperial Family" "Brutally beheaded by a Maiden" "Only her soul remains in the Inner Realm" "Forever searching for the intangible"$6"
-SET "cre[MaidenIchika]=6$1$Blossom Reform$%col:c=191;166;122%Û %col:c=245;234;113%v%up:n=1%%bk:n=3%< %col:c=115;250;232%+ %col:c=245;234;113%>%up:n=1%%bk:n=3%^%dn:n=3%%bk:n=3%ß%up:n=1%$3$6$"Once a maiden of the Imperial Family" "Exiled, but discovered the Morgenstern" "Took revenge and slaughtered them all"$5"
-SET "cre[Emiko]=6$4$Autumn Winter$%bk:n=3%%col:c=64;68;120% Ã%col:c=39;47;130%ÄÛÙ%bk:n=5%%up:n=1%%col:c=66;50;84%[%col:c=65;12;156%Û%col:c=66;50;84%]%dn:n=1%$3$9$"Necromancer hailing from the Dead Citadel" "The husk of a Palace consort"$5"
-SET "cre[Atsuko]=5$5$Spring$%col:c=201;147;93%Û%bk:n=1%%up:n=1%%col:c=247;250;102%-%dn:n=1%$4$5$"Blessed Human from the Inner Realm" "Imbued with power of Divine Spirit"$4"
-SET "cre[Nakabasu]=7$3$Autumn$%col:c=130;41;186%%bk:n=1%\%col:c=52;24;69%Û%col:c=130;41;186%/%bk:n=2%%up:n=1%v%ESC%[1B$3$12$"Succubus from the Outer Realm" "Known to many dimensions as 'Heart Render'"$6"
-SET "cre[Jimoqo]=4$4$Winter$%bk:n=1%%col:c=46;86;112%|%bk:n=1%%up:n=1%%col:c=137;162;171%^%dn:n=1%%col:c=74;72;161%Û%col:c=46;86;112%-%col:c=137;162;171%>$3$8$"Born from the East Hypoborean Mountains" "Wields the twin blades 'Taion' and 'Shimo'" "It is said she has a heart of obsidian"$3"
-SET "cre[Katachi]=4$6$Winter$%bk:n=1%%col:c=128;27;18%*%col:c=71;63;56%±%col:c=128;27;18%*%bk:n=2%%dn:n=1%*%up:n=1%$2$7$"Notorious Assassin of the Inner realm" "Cruel and painful deaths crown her fame" "Nothing but a wisp, a soul of cinder and ash"$4"
-SET "cre[Mei-mei]=2$5$Summer$%col:c=191;133;61%Û %col:c=57;28;97%|%up:n=1%%bk:n=3%%col:c=165;44;245%<%col:c=57;28;97%|%col:c=39;15;61%Û%col:c=57;28;97%|%col:c=165;44;245%>%bk:n=3%%up:n=1%^%dn:n=2%$1$2$"Angel from the Palace of Stars" "Uses the Tainted Hammer, weapon of Titans" "No man can withstand her beauty"$2"
-SET "cre[Kaguya]=9$1$LunarGoddess$%col:c=119;168;50%%bk:n=2%º%bk:n=1%%up:n=1%º%bk:n=1%%up:n=1%Ñ%dn:n=2%%col:c=250;255;199%ÄÛ%col:c=161;199;131%%bk:n=1%%up:n=1%Ê%dn:n=1%$5$10$"Born from glowing bamboo" "Mystical Celestial from the Moon" "Ghosts still yearn for sickly love"$8"
-SET "cre[Chizuru]=8$4$ThousandCranes$%bk:n=3%%col:c=232;192;81%|/%col:c=230;220;193%'Û'%col:c=232;192;81%\|%up:n=1%%bk:n=6%/\-/\%dn:n=1%$5$2$"Angel with the rare gift of Wings" "Innocent, never seen outside the Outer Realm" "Folds paper cranes in her spare time"$5"
-SET "cre[PrincessHimako]=5$2$BloodSword$%bk:n=1%%col:c=242;224;172%|²_%col:c=156;151;138%|%bk:n=4%%up:n=1%%col:c=96;191;155%.%nx:n=2%%col:c=156;151;138%|%col:c=255;255;255%%bcl:c=96;191;155%*%ESC%[0m%col:c=156;151;138%>%bk:n=5%%dn:n=2%%col:c=83;110;100%Û %col:c=156;151;138%|%up:n=1%$2$3$"From the Shinqu'i Imperial Family" "Highly trained demigod" "Tragic events have left her emotionless" "Bones of demons adorn her robe"$6"
-SET "cre[-LightFuyumi-]=6$2$Yin Reform$%col:c=108;184;164%%bk:n=2%' %col:c=101;110;105%Û%col:c=108;184;164%'>%bk:n=4%%up:n=1%^'%bk:n=3%%dn:n=2%<' 'v%up:n=1%$3$9$"Half Golem carved from Celestial stones" "Guardian of the Inner Realm for eons" "Etched with arcane runes of bygone magic" "Dual spirited, Dual nature"$5"
-SET "cre[NikuyaSan]=6$5$Summer Winter$%bk:n=3% %col:c=145;44;84%İ %col:c=84;44;145%±%up:n=1%%bk:n=4%%col:c=166;87;35%_%bcl:c=97;24;46%_%ESC%[0m%col:c=166;87;35%_%up:n=1%%bk:n=2%%col:c=97;24;46%Û%dn:n=2%$5$4$"The famed 'Demon Slayer' from Imperial Court" "Drenched in the blood of Hell beings" "Carries the Titan-crafted Butcher Blade"$5"
-SET "cre[YamaYami]=3$4$Spring$%bk:n=2%%col:c=124;72;168%Ç%col:c=221;232;21%Û %col:c=212;25;202%ÛÄ%col:c=249;255;97%{%up:n=1%%bk:n=6%%col:c=124;72;168%Î%dn:n=1%$3$5$"Twin sisters of Death" "Raised in the Void after the Celestial War"$3"
+SET "cre[LadyRenga]=14$0$Autumn$%col:c=201;247;176%Ã›%bk:n=1%%dn:n=1%%col:c=86;150;51%ÃŸ%up:n=1%%col:c=37;92;6%ÃÂ¼%bk:n=4%%up:n=1%%col:c=27;224;126%\%col:c=45;99;72%|%col:c=27;224;126%/%col:c=37;92;6%Ã‰Ã%col:c=130;207;43%<%up:n=1%%bk:n=2%v%dn:n=2%$6$10$"Once druid-priestess of the Imperial Family" "Brutally beheaded by a Maiden" "Only her soul remains in the Inner Realm" "Forever searching for the intangible"$6"
+SET "cre[MaidenIchika]=6$1$Blossom Reform$%col:c=191;166;122%Ã› %col:c=245;234;113%v%up:n=1%%bk:n=3%< %col:c=115;250;232%+ %col:c=245;234;113%>%up:n=1%%bk:n=3%^%dn:n=3%%bk:n=3%ÃŸ%up:n=1%$3$6$"Once a maiden of the Imperial Family" "Exiled, but discovered the Morgenstern" "Took revenge and slaughtered them all"$5"
+SET "cre[Emiko]=6$4$Autumn Winter$%bk:n=3%%col:c=64;68;120% Ãƒ%col:c=39;47;130%Ã„Ã›Ã™%bk:n=5%%up:n=1%%col:c=66;50;84%[%col:c=65;12;156%Ã›%col:c=66;50;84%]%dn:n=1%$3$9$"Necromancer hailing from the Dead Citadel" "The husk of a Palace consort"$5"
+SET "cre[Atsuko]=5$5$Spring$%col:c=201;147;93%Ã›%bk:n=1%%up:n=1%%col:c=247;250;102%-%dn:n=1%$4$5$"Blessed Human from the Inner Realm" "Imbued with power of Divine Spirit"$4"
+SET "cre[Nakabasu]=7$3$Autumn$%col:c=130;41;186%%bk:n=1%\%col:c=52;24;69%Ã›%col:c=130;41;186%/%bk:n=2%%up:n=1%v%ESC%[1B$3$12$"Succubus from the Outer Realm" "Known to many dimensions as 'Heart Render'"$6"
+SET "cre[Jimoqo]=4$4$Winter$%bk:n=1%%col:c=46;86;112%|%bk:n=1%%up:n=1%%col:c=137;162;171%^%dn:n=1%%col:c=74;72;161%Ã›%col:c=46;86;112%-%col:c=137;162;171%>$3$8$"Born from the East Hypoborean Mountains" "Wields the twin blades 'Taion' and 'Shimo'" "It is said she has a heart of obsidian"$3"
+SET "cre[Katachi]=4$6$Winter$%bk:n=1%%col:c=128;27;18%*%col:c=71;63;56%Â±%col:c=128;27;18%*%bk:n=2%%dn:n=1%*%up:n=1%$2$7$"Notorious Assassin of the Inner realm" "Cruel and painful deaths crown her fame" "Nothing but a wisp, a soul of cinder and ash"$4"
+SET "cre[Mei-mei]=2$5$Summer$%col:c=191;133;61%Ã› %col:c=57;28;97%|%up:n=1%%bk:n=3%%col:c=165;44;245%<%col:c=57;28;97%|%col:c=39;15;61%Ã›%col:c=57;28;97%|%col:c=165;44;245%>%bk:n=3%%up:n=1%^%dn:n=2%$1$2$"Angel from the Palace of Stars" "Uses the Tainted Hammer, weapon of Titans" "No man can withstand her beauty"$2"
+SET "cre[Kaguya]=9$1$LunarGoddess$%col:c=119;168;50%%bk:n=2%Âº%bk:n=1%%up:n=1%Âº%bk:n=1%%up:n=1%Ã‘%dn:n=2%%col:c=250;255;199%Ã„Ã›%col:c=161;199;131%%bk:n=1%%up:n=1%ÃŠ%dn:n=1%$5$10$"Born from glowing bamboo" "Mystical Celestial from the Moon" "Ghosts still yearn for sickly love"$8"
+SET "cre[Chizuru]=8$4$ThousandCranes$%bk:n=3%%col:c=232;192;81%|/%col:c=230;220;193%'Ã›'%col:c=232;192;81%\|%up:n=1%%bk:n=6%/\-/\%dn:n=1%$5$2$"Angel with the rare gift of Wings" "Innocent, never seen outside the Outer Realm" "Folds paper cranes in her spare time"$5"
+SET "cre[PrincessHimako]=5$2$BloodSword$%bk:n=1%%col:c=242;224;172%|Â²_%col:c=156;151;138%|%bk:n=4%%up:n=1%%col:c=96;191;155%.%nx:n=2%%col:c=156;151;138%|%col:c=255;255;255%%bcl:c=96;191;155%*%ESC%[0m%col:c=156;151;138%>%bk:n=5%%dn:n=2%%col:c=83;110;100%Ã› %col:c=156;151;138%|%up:n=1%$2$3$"From the Shinqu'i Imperial Family" "Highly trained demigod" "Tragic events have left her emotionless" "Bones of demons adorn her robe"$6"
+SET "cre[-LightFuyumi-]=6$2$Yin Reform$%col:c=108;184;164%%bk:n=2%' %col:c=101;110;105%Ã›%col:c=108;184;164%'>%bk:n=4%%up:n=1%^'%bk:n=3%%dn:n=2%<' 'v%up:n=1%$3$9$"Half Golem carved from Celestial stones" "Guardian of the Inner Realm for eons" "Etched with arcane runes of bygone magic" "Dual spirited, Dual nature"$5"
+SET "cre[NikuyaSan]=6$5$Summer Winter$%bk:n=3% %col:c=145;44;84%Ã %col:c=84;44;145%Â±%up:n=1%%bk:n=4%%col:c=166;87;35%_%bcl:c=97;24;46%_%ESC%[0m%col:c=166;87;35%_%up:n=1%%bk:n=2%%col:c=97;24;46%Ã›%dn:n=2%$5$4$"The famed 'Demon Slayer' from Imperial Court" "Drenched in the blood of Hell beings" "Carries the Titan-crafted Butcher Blade"$5"
+SET "cre[YamaYami]=3$4$Spring$%bk:n=2%%col:c=124;72;168%Ã‡%col:c=221;232;21%Ã› %col:c=212;25;202%Ã›Ã„%col:c=249;255;97%{%up:n=1%%bk:n=6%%col:c=124;72;168%Ã%dn:n=1%$3$5$"Twin sisters of Death" "Raised in the Void after the Celestial War"$3"
 
-SET "en[Absque-Sozo]=40$4$Ryujin$%bk:n=1%%col:c=158;24;9%Û%col:c=27;37;69%Û%col:c=99;26;92%Û%dn:n=1%%bk:n=3%%col:c=117;84;114%ÈÎ¼%dn:n=1%%bk:n=2%%col:c=212;95;201%Ê$15$15$"%bk:n=2% " "%col:c=131;24;181%Primordial God of the Void%ESC%[0m" "%bk:n=2%[ %col:c=48;54;43%IRON%ESC%[0m ]"$at L"
-SET "en[Tamamo-no-Mae]=25$3$NineTails$%bk:n=1%%col:c=179;44;27%/%col:c=217;208;141%Û%col:c=179;44;27%\%bk:n=3%%dn:n=1%%bcl:c=99;46;34%ÇÄ·%ESC%[0m%bk:n=3%%dn:n=1%%col:c=217;208;141%ß%nx:N=1%ß$13$6$"Fox spirit of 9 tails" "Unearthly beauty, fat with desire" "Courtesan to many an emperor"$at G"
-SET "en[Omukade]=10$3$Winter Reform$%col:c=168;162;50%Û%up:n=1%%bk:n=1%^%dn:n=1%%col:c=83;122;28%²%col:c=168;162;50%Û%col:c=83;122;28%²%col:c=168;162;50%Û%col:c=83;122;28%²$5$5$"Man-eating centipedes formed by Necromancers" "Weaponized in the Celestial Wars" "Left behind for the Inner Realm"$hp G"
-SET "en[Nukekubi]=5$4$Extend$%col:c=245;199;135%Û%bk:n=1%%dn:n=1%%col:c=173;99;64%²$5$7$"Rejoice in the drinking of blood" "Necks that stretch for miles on end" "Corrupted villagers from the Inner Realm"$at G"
-SET "en[Amanozako]=20$6$Proliferate Reform$%bk:n=2%%col:c=227;25;25%'>%bcl:c=150;6;6%%col:c=33;4;4%Î%ESC%[0m%col:c=227;25;25%<'%bk:n=4%%up:n=1%±%bk:n=2%%dn:n=2%°±v±°$20$20$"Monstrous Goddess born from blood and vomit" "Once Courtesan of the Palace of Stars" "Insidious nature"$at L"
-SET "en[LesserKitsune]=6$1$Morph$%col:c=219;107;33%ÛÌ$3$5$"Young fox spirits" "Shapeshift into ethereal women"$hp L"
-SET "en[GreaterKitsune]=8$2$Morph$%col:c=219;107;33%ÛÌÍ%bk:n=2%%up:n=1%º/%bk:n=2%%dn:n=2%º\$3$4$"Elder fox spirit with five tails" "Sly, cunning, mischievous"$hp L"
-SET "en[Chimera]=12$5$Beast$%col:c=188;20;20%%bk:n=1%}Û{%col:c=117;186;20%-%bk:n=3%%dn:n=1%%col:c=119;24;9%| |%col:c=117;186;20%\_<$5$13$"Fallen beasts from the Palace of Stars" "Head of a Lion, tail of a Snake" "Terrorize the Inner Realm"$at G"
-SET "en[Oni]=7$3$Autumn$%bk:n=1%%col:c=110;46;10%<%col:c=50;168;82%Û%col:c=110;46;10%>$2$12$"Hulking creatures of Hell" "Carry spiked iron clubs" "Footsoldiers of General Ketsueki"$hp G"
-SET "en[Ningyo]=6$4$Spring$%bk:n=2%%col:c=93;112;98%|%col:c=53;120;109%_Û%up:n=1%%bk:n=3%%col:c=130;194;164%v%dn:n=2%%bk:n=1%%col:c=93;112;98%|%nx:n=1%%col:c=53;120;109%²±<$2$5$"Mer-creatures from the Ocean of Tears" "Treacherous golden scales adorn it's back" "Suffered greatly in the Celestial Wars"$hp G"
-SET "en[Jami]=9$1$Mountain Summer$%col:c=127;177;186%Û%col:c=31;195;224%%bk:n=2%%dn:n=1%Ä²Ä%bk:n=2%%dn:n=1%|$4$12$"Corrupt manifestations of Nature" "Harbingers of plague and disease" "Torture Angels from the Outer Realm"$hp L"
-SET "en[Titan]=35$10$Shatter$%bk:n=4%%col:c=128;51;15%±   %col:c=15;32;128%Û  %col:c=55;75;189%³%col:c=115;55;189%\%bk:n=9%%dn:n=1%%col:c=55;75;189%<%col:c=115;55;189%²ÄÒÍÒÄ¾ \%bk:n=10%%dn:n=1%%col:c=128;51;15%±%col:c=115;55;189%  ÈÑ¼%bk:n=5%%dn:n=1%± É²»%bk:n=4%%dn:n=1%%col:c=128;51;15%Ä%col:c=115;55;189%¼ È%col:c=128;51;15%Ä%bk:n=6%%up:n=5%±     %col:c=192;64;227%\$10$10$"Eternal enemy of the Gods" "Bound to Hell after the Celestial War" "Said to be Fallen Angels consumed by the Citadel" "Immense strength, power over the very Stars" "%bk:n=2% "$at G"
+SET "en[Absque-Sozo]=40$4$Ryujin$%bk:n=1%%col:c=158;24;9%Ã›%col:c=27;37;69%Ã›%col:c=99;26;92%Ã›%dn:n=1%%bk:n=3%%col:c=117;84;114%ÃˆÃÂ¼%dn:n=1%%bk:n=2%%col:c=212;95;201%ÃŠ$15$15$"%bk:n=2% " "%col:c=131;24;181%Primordial God of the Void%ESC%[0m" "%bk:n=2%[ %col:c=48;54;43%IRON%ESC%[0m ]"$at L"
+SET "en[Tamamo-no-Mae]=25$3$NineTails$%bk:n=1%%col:c=179;44;27%/%col:c=217;208;141%Ã›%col:c=179;44;27%\%bk:n=3%%dn:n=1%%bcl:c=99;46;34%Ã‡Ã„Â·%ESC%[0m%bk:n=3%%dn:n=1%%col:c=217;208;141%ÃŸ%nx:N=1%ÃŸ$13$6$"Fox spirit of 9 tails" "Unearthly beauty, fat with desire" "Courtesan to many an emperor"$at G"
+SET "en[Omukade]=10$3$Winter Reform$%col:c=168;162;50%Ã›%up:n=1%%bk:n=1%^%dn:n=1%%col:c=83;122;28%Â²%col:c=168;162;50%Ã›%col:c=83;122;28%Â²%col:c=168;162;50%Ã›%col:c=83;122;28%Â²$5$5$"Man-eating centipedes formed by Necromancers" "Weaponized in the Celestial Wars" "Left behind for the Inner Realm"$hp G"
+SET "en[Nukekubi]=5$4$Extend$%col:c=245;199;135%Ã›%bk:n=1%%dn:n=1%%col:c=173;99;64%Â²$5$7$"Rejoice in the drinking of blood" "Necks that stretch for miles on end" "Corrupted villagers from the Inner Realm"$at G"
+SET "en[Amanozako]=20$6$Proliferate Reform$%bk:n=2%%col:c=227;25;25%'>%bcl:c=150;6;6%%col:c=33;4;4%Ã%ESC%[0m%col:c=227;25;25%<'%bk:n=4%%up:n=1%Â±%bk:n=2%%dn:n=2%Â°Â±vÂ±Â°$20$20$"Monstrous Goddess born from blood and vomit" "Once Courtesan of the Palace of Stars" "Insidious nature"$at L"
+SET "en[LesserKitsune]=6$1$Morph$%col:c=219;107;33%Ã›ÃŒ$3$5$"Young fox spirits" "Shapeshift into ethereal women"$hp L"
+SET "en[GreaterKitsune]=8$2$Morph$%col:c=219;107;33%Ã›ÃŒÃ%bk:n=2%%up:n=1%Âº/%bk:n=2%%dn:n=2%Âº\$3$4$"Elder fox spirit with five tails" "Sly, cunning, mischievous"$hp L"
+SET "en[Chimera]=12$5$Beast$%col:c=188;20;20%%bk:n=1%}Ã›{%col:c=117;186;20%-%bk:n=3%%dn:n=1%%col:c=119;24;9%| |%col:c=117;186;20%\_<$5$13$"Fallen beasts from the Palace of Stars" "Head of a Lion, tail of a Snake" "Terrorize the Inner Realm"$at G"
+SET "en[Oni]=7$3$Autumn$%bk:n=1%%col:c=110;46;10%<%col:c=50;168;82%Ã›%col:c=110;46;10%>$2$12$"Hulking creatures of Hell" "Carry spiked iron clubs" "Footsoldiers of General Ketsueki"$hp G"
+SET "en[Ningyo]=6$4$Spring$%bk:n=2%%col:c=93;112;98%|%col:c=53;120;109%_Ã›%up:n=1%%bk:n=3%%col:c=130;194;164%v%dn:n=2%%bk:n=1%%col:c=93;112;98%|%nx:n=1%%col:c=53;120;109%Â²Â±<$2$5$"Mer-creatures from the Ocean of Tears" "Treacherous golden scales adorn it's back" "Suffered greatly in the Celestial Wars"$hp G"
+SET "en[Jami]=9$1$Mountain Summer$%col:c=127;177;186%Ã›%col:c=31;195;224%%bk:n=2%%dn:n=1%Ã„Â²Ã„%bk:n=2%%dn:n=1%|$4$12$"Corrupt manifestations of Nature" "Harbingers of plague and disease" "Torture Angels from the Outer Realm"$hp L"
+SET "en[Titan]=35$10$Shatter$%bk:n=4%%col:c=128;51;15%Â±   %col:c=15;32;128%Ã›  %col:c=55;75;189%Â³%col:c=115;55;189%\%bk:n=9%%dn:n=1%%col:c=55;75;189%<%col:c=115;55;189%Â²Ã„Ã’ÃÃ’Ã„Â¾ \%bk:n=10%%dn:n=1%%col:c=128;51;15%Â±%col:c=115;55;189%  ÃˆÃ‘Â¼%bk:n=5%%dn:n=1%Â± Ã‰Â²Â»%bk:n=4%%dn:n=1%%col:c=128;51;15%Ã„%col:c=115;55;189%Â¼ Ãˆ%col:c=128;51;15%Ã„%bk:n=6%%up:n=5%Â±     %col:c=192;64;227%\$10$10$"Eternal enemy of the Gods" "Bound to Hell after the Celestial War" "Said to be Fallen Angels consumed by the Citadel" "Immense strength, power over the very Stars" "%bk:n=2% "$at G"
 
 SET "aug[Reform]="act]=""
-SET "aug[Shrivel]="char]=%col:c=27;37;69%Û%bk:n=1%%dn:n=1%%col:c=30;23;128%ß""
-SET "aug[Ryujin]="act]=" "sty]=hp L" "#turn]+=1" "#at]+=1" "#hp]=40" "aug]=InkVeins" "char]=%bk:n=1%%col:c=65;74;128%^>%col:c=158;24;9%Û%col:c=74;59;140%%dn:n=1%%bk:n=1%È%col:c=212;95;201%Í%col:c=74;59;140%»%dn:n=1%%bk:n=4%%col:c=74;59;140%É%col:c=212;95;201%Í%col:c=74;59;140%Í%col:c=212;95;201%¼ Ë%dn:n=1%%bk:n=6%%col:c=74;59;140%È%col:c=212;95;201%Í%col:c=74;59;140%Í%col:c=212;95;201%Í%col:c=74;59;140%Í%col:c=212;95;201%¼""
-SET "aug[InkVeins]="act]=" "sty]=at G" "#crit]=5" "#turn]=1" "#hp]=40" "aug]=Shrivel" "desc]=%ESC%[s%ESC%[u%ESC%[B%ESC%[s- %col:c=131;24;181%Primordial God of the Void%ESC%[0m%ESC%[u%ESC%[B%ESC%[s[ %col:c=255;95;46%FLAME%ESC%[0m ]%ESC%[u%ESC%[B" "char]=%bk:n=2%%col:c=212;95;201%ÌÎ%col:c=27;37;69%Û%col:c=212;95;201%Î¹%up:n=1%%bk:n=4%ÉÎ»%up:n=1%%bk:n=2%Ë%dn:n=3%%bk:n=2%ÈÎ¼%dn:n=1%%bk:n=2%Ê""
-SET "aug[Shatter]="]=FallenAngel" "char]=%col:c=67;40;94%%bk:n=2%ÔÊÛÊ¾%up:n=1%%bk:n=4%¶ Ç%up:n=1%%bk:n=3%%col:c=138;11;32%· Ö" "#at]=5" "#turn]+=2" "hp]=15" "desc]=%ESC%[s- True form of the Titan%ESC%[u%ESC%[B%ESC%[s- Snapped bones jut out of rotten wings%ESC%[u%ESC%[B""
-SET "aug[Mountain]="]=EnragedJami" "sty]=at G" "char]=%col:c=194;101;101%Û%col:c=207;27;27%%bk:n=2%%dn:n=1%Ô²¾%bk:n=3%%dn:n=1%ÕÑ¸""
+SET "aug[Shrivel]="char]=%col:c=27;37;69%Ã›%bk:n=1%%dn:n=1%%col:c=30;23;128%ÃŸ""
+SET "aug[Ryujin]="act]=" "sty]=hp L" "#turn]+=1" "#at]+=1" "#hp]=40" "aug]=InkVeins" "char]=%bk:n=1%%col:c=65;74;128%^>%col:c=158;24;9%Ã›%col:c=74;59;140%%dn:n=1%%bk:n=1%Ãˆ%col:c=212;95;201%Ã%col:c=74;59;140%Â»%dn:n=1%%bk:n=4%%col:c=74;59;140%Ã‰%col:c=212;95;201%Ã%col:c=74;59;140%Ã%col:c=212;95;201%Â¼ Ã‹%dn:n=1%%bk:n=6%%col:c=74;59;140%Ãˆ%col:c=212;95;201%Ã%col:c=74;59;140%Ã%col:c=212;95;201%Ã%col:c=74;59;140%Ã%col:c=212;95;201%Â¼""
+SET "aug[InkVeins]="act]=" "sty]=at G" "#crit]=5" "#turn]=1" "#hp]=40" "aug]=Shrivel" "desc]=%ESC%[s%ESC%[u%ESC%[B%ESC%[s- %col:c=131;24;181%Primordial God of the Void%ESC%[0m%ESC%[u%ESC%[B%ESC%[s[ %col:c=255;95;46%FLAME%ESC%[0m ]%ESC%[u%ESC%[B" "char]=%bk:n=2%%col:c=212;95;201%ÃŒÃ%col:c=27;37;69%Ã›%col:c=212;95;201%ÃÂ¹%up:n=1%%bk:n=4%Ã‰ÃÂ»%up:n=1%%bk:n=2%Ã‹%dn:n=3%%bk:n=2%ÃˆÃÂ¼%dn:n=1%%bk:n=2%ÃŠ""
+SET "aug[Shatter]="]=FallenAngel" "char]=%col:c=67;40;94%%bk:n=2%Ã”ÃŠÃ›ÃŠÂ¾%up:n=1%%bk:n=4%Â¶ Ã‡%up:n=1%%bk:n=3%%col:c=138;11;32%Â· Ã–" "#at]=5" "#turn]+=2" "hp]=15" "desc]=%ESC%[s- True form of the Titan%ESC%[u%ESC%[B%ESC%[s- Snapped bones jut out of rotten wings%ESC%[u%ESC%[B""
+SET "aug[Mountain]="]=EnragedJami" "sty]=at G" "char]=%col:c=194;101;101%Ã›%col:c=207;27;27%%bk:n=2%%dn:n=1%Ã”Â²Â¾%bk:n=3%%dn:n=1%Ã•Ã‘Â¸""
 SET "aug[DarkEmbrace]="#tim]+=1" "#at]=3+#tim]" "#hp]=7" "]=%col:c=186;71;161%Shinigami%ESC%[0m""
-SET "aug[NineTails]="#at]=2" "#crit]-=2" "#turn]+=1" "]=%bcl:c=179;44;27%%col:c=255;255;255%Tamamo-no-Mae%ESC%[0m" "char]=%bk:n=1%%col:c=179;44;27%/%bcl:c=217;208;141%%col:c=247;71;52%v%ESC%[0m%col:c=179;44;27%\%bk:n=4%%dn:n=1%%col:c=247;71;52%¶%bcl:c=99;46;34%ÇÄ·%ESC%[0m%col:c=247;71;52%Ç%bk:n=4%%dn:n=1%%col:c=217;208;141%ß%col:c=247;71;52%×%col:c=217;208;141%ß""
+SET "aug[NineTails]="#at]=2" "#crit]-=2" "#turn]+=1" "]=%bcl:c=179;44;27%%col:c=255;255;255%Tamamo-no-Mae%ESC%[0m" "char]=%bk:n=1%%col:c=179;44;27%/%bcl:c=217;208;141%%col:c=247;71;52%v%ESC%[0m%col:c=179;44;27%\%bk:n=4%%dn:n=1%%col:c=247;71;52%Â¶%bcl:c=99;46;34%Ã‡Ã„Â·%ESC%[0m%col:c=247;71;52%Ã‡%bk:n=4%%dn:n=1%%col:c=217;208;141%ÃŸ%col:c=247;71;52%Ã—%col:c=217;208;141%ÃŸ""
 SET "aug[Blossom]="#tim]+=1" "#hp]=6+#tim]" "#at]=1" "]=OrchidIchika""
-SET "aug[Extend]="#turn]+=1" "char]=%col:c=245;199;135%%nx:n=1%/%bk:n=2%%dn:n=1%%col:c=173;99;64%²%col:c=245;199;135%%up:n=2%\%bk:n=3%%up:n=1%`Û`""
-SET "aug[ThousandCranes]="#hp]=0" "#turn]+=2" "#at]-=1" "char]=%col:c=230;220;193%%bk:n=1%'Û' %col:c=255;255;255%-v-%up:n=1%%bk:n=9%-v-  -v-%dn:n=2%%bk:n=9%-v- -v-%up:n=1%""
+SET "aug[Extend]="#turn]+=1" "char]=%col:c=245;199;135%%nx:n=1%/%bk:n=2%%dn:n=1%%col:c=173;99;64%Â²%col:c=245;199;135%%up:n=2%\%bk:n=3%%up:n=1%`Ã›`""
+SET "aug[ThousandCranes]="#hp]=0" "#turn]+=2" "#at]-=1" "char]=%col:c=230;220;193%%bk:n=1%'Ã›' %col:c=255;255;255%-v-%up:n=1%%bk:n=9%-v-  -v-%dn:n=2%%bk:n=9%-v- -v-%up:n=1%""
 SET "aug[Proliferate]="#hp]+=2"
-SET "aug[Yang]="#turn]=1" "#at]=2" "#hp]=6" "#crit]=4" "]=-LightFuyumi-" "aug]=Yin Reform" "char]=%col:c=108;184;164%%bk:n=2%' %col:c=101;110;105%Û%col:c=108;184;164%'^>%bk:n=4%%up:n=1%^^'%bk:n=3%%dn:n=2%^<' 'v%up:n=1%""
-SET "aug[Yin]="#turn]+=1" "#at]+=3" "#hp]=6" "#crit]-=2" "]=~DarkFuyumi~" "aug]=Yang Reform" "char]=%col:c=110;32;30%%bk:n=2%' %col:c=101;110;105%Û%col:c=110;32;30%'~%bk:n=4%%up:n=1%~'%bk:n=3%%dn:n=2%~' '~%up:n=1%""
-SET "aug[LunarGoddess]="#turn]+=2" "#at]+=5" "]=%bcl:c=222;178;58%%col:c=66;58;36%Tsuki-Yomi%ESC%[0m" "char]=%col:c=204;230;208%%bk:n=1%-%col:c=245;245;127%Û%col:c=204;230;208%-%bk:n=3%%up:n=1%\^|/%bk:n=3%%dn:n=2%/^|\%up:n=1%""
-SET "aug[Morph]="#at]+=4" "sty]=hp G" "char]=%col:c=191;40;29%%bk:n=1%/%col:c=227;189;143%Û%col:c=191;40;29%\""
-SET "aug[BloodSword]="#hp]+=3" "#at]+=5" "#crit]-=1" "]=%col:c=79;227;200%QueenHimako%ESC%[0m" "char]=%bk:n=1%%col:c=79;227;200%^|²_%col:c=156;151;138%^|%bk:n=4%%up:n=1%%col:c=96;191;155%.M %col:c=156;151;138%{%col:c=255;255;255%%bcl:c=96;191;155%-%ESC%[0m%col:c=156;151;138%^>%bk:n=6%%dn:n=2%%col:c=79;227;200%/%col:c=83;110;100%Û%col:c=79;227;200%\%col:c=156;151;138%^|%up:n=1%""
+SET "aug[Yang]="#turn]=1" "#at]=2" "#hp]=6" "#crit]=4" "]=-LightFuyumi-" "aug]=Yin Reform" "char]=%col:c=108;184;164%%bk:n=2%' %col:c=101;110;105%Ã›%col:c=108;184;164%'^>%bk:n=4%%up:n=1%^^'%bk:n=3%%dn:n=2%^<' 'v%up:n=1%""
+SET "aug[Yin]="#turn]+=1" "#at]+=3" "#hp]=6" "#crit]-=2" "]=~DarkFuyumi~" "aug]=Yang Reform" "char]=%col:c=110;32;30%%bk:n=2%' %col:c=101;110;105%Ã›%col:c=110;32;30%'~%bk:n=4%%up:n=1%~'%bk:n=3%%dn:n=2%~' '~%up:n=1%""
+SET "aug[LunarGoddess]="#turn]+=2" "#at]+=5" "]=%bcl:c=222;178;58%%col:c=66;58;36%Tsuki-Yomi%ESC%[0m" "char]=%col:c=204;230;208%%bk:n=1%-%col:c=245;245;127%Ã›%col:c=204;230;208%-%bk:n=3%%up:n=1%\^|/%bk:n=3%%dn:n=2%/^|\%up:n=1%""
+SET "aug[Morph]="#at]+=4" "sty]=hp G" "char]=%col:c=191;40;29%%bk:n=1%/%col:c=227;189;143%Ã›%col:c=191;40;29%\""
+SET "aug[BloodSword]="#hp]+=3" "#at]+=5" "#crit]-=1" "]=%col:c=79;227;200%QueenHimako%ESC%[0m" "char]=%bk:n=1%%col:c=79;227;200%^|Â²_%col:c=156;151;138%^|%bk:n=4%%up:n=1%%col:c=96;191;155%.M %col:c=156;151;138%{%col:c=255;255;255%%bcl:c=96;191;155%-%ESC%[0m%col:c=156;151;138%^>%bk:n=6%%dn:n=2%%col:c=79;227;200%/%col:c=83;110;100%Ã›%col:c=79;227;200%\%col:c=156;151;138%^|%up:n=1%""
 SET "aug[Beast]="#at]+=4""
 SET "aug[Autumn]="#at]+=3" "#crit]+=1""
 SET "aug[Winter]="#hp]+=3" "#at]-=1""
 SET "aug[Spring]="#crit]-=1" "#at]-=1""
 SET "aug[Summer]="#turn]+=1" "#crit]+=1""
 
-SET "rel[BindingSigil]="cre@crit]-=1" "cre@at]+=2" "cre@hp]+=3" "en@turn]+=1"$%col:c=212;2;2%Ú%col:c=143;0;0% Ö·%bk:n=4%%dn:n=1%Ã¸¾º%bk:n=4%%dn:n=1%Õµ %col:c=212;2;2%Ï$Used by early Necromancers to constrict Death"
-SET "rel[Pandora'sBox]="cre@hp]-=3" "en@hp]-=3"$%col:c=171;36;79%²%bcl:c=196;110;137%%col:c=68;34;156%:%col:c=171;36;79%²%dn:n=1%%bk:n=3%%bcl:c=230;172;190% %bcl:c=230;172;190%v %bcl:c=0;0;0%$Ancient horrors reside within"
-SET "rel[HolyStaff]="en@pa]=0" "en@hp]+=1" "cre@at]-=1"$%col:c=27;154;222%ÃÛ´%col:c=108;134;148%%bk:n=2%%dn:n=1%Î%bk:n=1%%dn:n=1%º%bk:n=1%%dn:n=1%º$Celestial meteor fashioned into weapon"
-SET "rel[GobletOfDesire]="en@at]-=2" "cre@at]-=1"$%col:c=196;153;43%ÛÛÛ%dn:n=1%%bk:n=3%%col:c=196;43;43%²%col:c=196;153;43%Û%col:c=122;64;189%²%dn:n=1%%bk:n=3%%col:c=196;153;43%_Û_$From the Palace of Stars"
-SET "rel[FrostChakra]="en@hp]-=1" "cre@pa]-=1"$%col:c=51;208;212%°±²Û%dn:n=1%%bk:n=4%Û%col:c=137;240;235%ÛÛ%col:c=51;208;212%²%dn:n=1%%bk:n=4%²±°±$Blinding vortex of ice"
-SET "rel[SoulAmulet]="cre@at]-=1" "en@at]-=1"$%col:c=255;255;255%ÍËÍ%dn:n=1%%bk:n=2%%col:c=199;163;163%Û$A confined Titan soul"
-SET "rel[HealingPendant]="cre@hp]+=1" "cre@at]-=1"$%col:c=92;48;24%²°²%dn:n=1%%bk:n=2%%col:c=245;242;66%Û$Imbued with sunlight"
-SET "rel[BloodOfFukushu]="cre@hp]-=1" "cre@at]+=1"$%col:c=71;47;47%°±°%dn:n=1%%bk:n=3%±%col:c=128;9;9%Û%col:c=71;47;47%±%dn:n=1%%bk:n=3%°±°$Bitter, flacking, blood"
-SET "rel[FallenDemonHeart]="cre@turn]+=1" "cre@hp]-=3" "cre@at]-=1"$%col:c=74;18;31%Û%bk:n=1%%dn:n=1%%col:c=38;25;23%^<%col:c=80;55;240%±%col:c=74;18;31%Û%bk:n=3%%dn:n=1%Û%col:c=70;14;107%²%col:c=38;25;23%^>%dn:n=1%%bk:n=2%v$Beware to all those who possess it"
+SET "rel[BindingSigil]="cre@crit]-=1" "cre@at]+=2" "cre@hp]+=3" "en@turn]+=1"$%col:c=212;2;2%Ãš%col:c=143;0;0% Ã–Â·%bk:n=4%%dn:n=1%ÃƒÂ¸Â¾Âº%bk:n=4%%dn:n=1%Ã•Âµ %col:c=212;2;2%Ã$Used by early Necromancers to constrict Death"
+SET "rel[Pandora'sBox]="cre@hp]-=3" "en@hp]-=3"$%col:c=171;36;79%Â²%bcl:c=196;110;137%%col:c=68;34;156%:%col:c=171;36;79%Â²%dn:n=1%%bk:n=3%%bcl:c=230;172;190% %bcl:c=230;172;190%v %bcl:c=0;0;0%$Ancient horrors reside within"
+SET "rel[HolyStaff]="en@pa]=0" "en@hp]+=1" "cre@at]-=1"$%col:c=27;154;222%ÃƒÃ›Â´%col:c=108;134;148%%bk:n=2%%dn:n=1%Ã%bk:n=1%%dn:n=1%Âº%bk:n=1%%dn:n=1%Âº$Celestial meteor fashioned into weapon"
+SET "rel[GobletOfDesire]="en@at]-=2" "cre@at]-=1"$%col:c=196;153;43%Ã›Ã›Ã›%dn:n=1%%bk:n=3%%col:c=196;43;43%Â²%col:c=196;153;43%Ã›%col:c=122;64;189%Â²%dn:n=1%%bk:n=3%%col:c=196;153;43%_Ã›_$From the Palace of Stars"
+SET "rel[FrostChakra]="en@hp]-=1" "cre@pa]-=1"$%col:c=51;208;212%Â°Â±Â²Ã›%dn:n=1%%bk:n=4%Ã›%col:c=137;240;235%Ã›Ã›%col:c=51;208;212%Â²%dn:n=1%%bk:n=4%Â²Â±Â°Â±$Blinding vortex of ice"
+SET "rel[SoulAmulet]="cre@at]-=1" "en@at]-=1"$%col:c=255;255;255%ÃÃ‹Ã%dn:n=1%%bk:n=2%%col:c=199;163;163%Ã›$A confined Titan soul"
+SET "rel[HealingPendant]="cre@hp]+=1" "cre@at]-=1"$%col:c=92;48;24%Â²Â°Â²%dn:n=1%%bk:n=2%%col:c=245;242;66%Ã›$Imbued with sunlight"
+SET "rel[BloodOfFukushu]="cre@hp]-=1" "cre@at]+=1"$%col:c=71;47;47%Â°Â±Â°%dn:n=1%%bk:n=3%Â±%col:c=128;9;9%Ã›%col:c=71;47;47%Â±%dn:n=1%%bk:n=3%Â°Â±Â°$Bitter, flacking, blood"
+SET "rel[FallenDemonHeart]="cre@turn]+=1" "cre@hp]-=3" "cre@at]-=1"$%col:c=74;18;31%Ã›%bk:n=1%%dn:n=1%%col:c=38;25;23%^<%col:c=80;55;240%Â±%col:c=74;18;31%Ã›%bk:n=3%%dn:n=1%Ã›%col:c=70;14;107%Â²%col:c=38;25;23%^>%dn:n=1%%bk:n=2%v$Beware to all those who possess it"
 
 SET "ev[1]=%col:c=255;95;46%FLAME$at$2$^!cre[%%@at]^!$Chance for Insane (+10^)"
 SET "ev[2]=%col:c=48;54;43%IRON$hp$2$3$Damage taken is one less and immune to Critical"
@@ -303,10 +303,10 @@ GOTO :EOF
 
 :GACHA
 FOR /L %%G in (1, 1, 28) DO (
-    ECHO %ESC%[2J!col:c=240;%%G0;115!%ESC%[%%G;30H%nx:n=2%^^^%dn:n=1%%bk:n=2%\²/%dn:n=1%%bk:n=4%^<²Û²^>%dn:n=1%%bk:n=4%/²\%dn:n=1%%bk:n=2%v
+    ECHO %ESC%[2J!col:c=240;%%G0;115!%ESC%[%%G;30H%nx:n=2%^^^%dn:n=1%%bk:n=2%\Â²/%dn:n=1%%bk:n=4%^<Â²Ã›Â²^>%dn:n=1%%bk:n=4%/Â²\%dn:n=1%%bk:n=2%v
     %framerate%
 )
-ECHO %ESC%[2J%ESC%[28;29H%nx:n=3%^^^%dn:n=1%%bk:n=2%\²/%dn:n=2%%bk:n=5%^<² Û ²^>%dn:n=2%%bk:n=5%/²\%dn:n=1%%bk:n=2%v
+ECHO %ESC%[2J%ESC%[28;29H%nx:n=3%^^^%dn:n=1%%bk:n=2%\Â²/%dn:n=2%%bk:n=5%^<Â² Ã› Â²^>%dn:n=2%%bk:n=5%/Â²\%dn:n=1%%bk:n=2%v
 SET /A "d[rand]=!RANDOM! * (14 - 1 + 1) / 32768 + 1","souls-=100"
 FOR /F "tokens=%d[rand]%" %%A in ("%creatures%") DO (
     IF "!cre[can]:%%A=!" == "!cre[can]!" (
