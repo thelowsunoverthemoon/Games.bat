@@ -25,7 +25,7 @@ ECHO %ESC%[?25l
 
 :MENU
 TITLE Dodge Dungeon
-ECHO %ESC%[2J%ESC%[0m%ESC%[2;4HLowsun 2019 (help by dbenham)%ESC%[7;10H__   __   __   __   ___%dn:n=1%%bk:n=24%^|  \ /  \ ^|  \ / _` ^|__%dn:n=1%%bk:n=23%^|__/ \__/ ^|__/ \__^> ^|___%dn:n=1%%bk:n=23%%col:c=135;245;233%^<Í D U N G E O N Í^>%ESC%[0m%ESC%[15;9H1) Large%dn:n=2%%ESC%[9G2) Medium%dn:n=2%%ESC%[9G3) Small%dn:n=2%%ESC%[9GQ) Quit%ESC%[11;10HSCORE : !score!
+ECHO %ESC%[2J%ESC%[0m%ESC%[2;4HLowsun 2019 (help by dbenham)%ESC%[7;10H__   __   __   __   ___%dn:n=1%%bk:n=24%^|  \ /  \ ^|  \ / _` ^|__%dn:n=1%%bk:n=23%^|__/ \__/ ^|__/ \__^> ^|___%dn:n=1%%bk:n=23%%col:c=135;245;233%^<Ã D U N G E O N Ã^>%ESC%[0m%ESC%[15;9H1) Large%dn:n=2%%ESC%[9G2) Medium%dn:n=2%%ESC%[9G3) Small%dn:n=2%%ESC%[9GQ) Quit%ESC%[11;10HSCORE : !score!
 CHOICE /C 123Q /N>NUL
 IF %errorlevel% EQU 4 EXIT /B
 SET /A "grid[x]=16-(3*%errorlevel%)","grid[y]=14-(3*%errorlevel%)","grid[bk]=(grid[x]*3)+1","score=0","p[rt]=15","margin=20-grid[x]","x[u]=18","y[u]=6"
@@ -49,12 +49,12 @@ GOTO :MENU
 FOR /L %%# in () DO (
     SET /P "rec="
     TITLE Score : !score!
-    ECHO %ESC%[2J%col:c=222;218;206%%ESC%[5;%margin%H%grid[disp]%%ESC%[1B%ESC%[%margin%GUse WASD to move%col:c=135;245;233%!p[dp]!%col:c=222;201;131%!p[jp]!%ESC%[!y[u]!;!x[u]!Hß%bk:n=1%%up:n=1%Û
+    ECHO %ESC%[2J%col:c=222;218;206%%ESC%[5;%margin%H%grid[disp]%%ESC%[1B%ESC%[%margin%GUse WASD to move%col:c=135;245;233%!p[dp]!%col:c=222;201;131%!p[jp]!%ESC%[!y[u]!;!x[u]!HÃŸ%bk:n=1%%up:n=1%Ã›
     SET /A "count+=1"
     SET "p[jp]="
     FOR %%G in (!rec!) DO (
         (SET /A "y[t]=y[u]","x[t]=x[u]",!mv[%%G]:#=t!,"y[d]=y[t]","x[d]=x[t]",!mv[%%G]:#=t!,"1/((((5-y[t])>>31)&1)&(((y[t]-(grid[y]+6))>>31)&1)&((((((grid[y]-(y[t]-5)))+%margin%)-x[t])>>31)&1)&(((x[t]-((((grid[y]-(y[t]-5)))+%margin%)+(3*grid[x])))>>31)&1))" 2>NUL) && (
-            SET "p[jp]=%col:c=151;98;191%%ESC%[!y[d]!;!x[d]!Hß%bk:n=1%%up:n=1%Û%ESC%[0m"
+            SET "p[jp]=%col:c=151;98;191%%ESC%[!y[d]!;!x[d]!HÃŸ%bk:n=1%%up:n=1%Ã›%ESC%[0m"
             SET /A "y[u]=y[t]","x[u]=x[t]"
         )
     )
@@ -78,10 +78,10 @@ FOR /L %%# in () DO (
                 SET /A "score+=1"
                 SET "p[li]=!p[li]:%%Q=!"
             ) else (
-                SET "p[dp]=!p[dp]!%ESC%[!d[y]!;!d[x]!H^>%bk:n=2%Í"
+                SET "p[dp]=!p[dp]!%ESC%[!d[y]!;!d[x]!H^>%bk:n=2%Ã"
             )
             IF "!x[u]!;!y[u]!" == "!d[x]!;!d[y]!" (
-                ECHO %ESC%[2J%col:c=222;218;206%%ESC%[5;%margin%H%grid[disp]%%ESC%[1B%ESC%[%margin%GOuch^^! Press any of WASD to continue%col:c=135;245;233%!p[dp]!%col:c=219;29;55%%up:n=1%Û
+                ECHO %ESC%[2J%col:c=222;218;206%%ESC%[5;%margin%H%grid[disp]%%ESC%[1B%ESC%[%margin%GOuch^^! Press any of WASD to continue%col:c=135;245;233%!p[dp]!%col:c=219;29;55%%up:n=1%Ã›
                 copy nul "%~dpn0.quit" >nul
                 EXIT !score!
             )
