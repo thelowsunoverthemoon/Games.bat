@@ -8,4 +8,4 @@ This is a collection of finished Batch games that aren't just text RPGs. You can
 * [Prism Song](PrismSong) : Boss-rush Platformer
 * [Soul Lapse](SoulLapse) : Standard JRPG with Gachas
 * [Ziggurat](Ziggurat) : 2 Player Fantasy Rogue-like
-* [girl & the rain](girl&therain) : Story based rain simulation
+* [girl & the rain](girl&therain) : Story based Rain Simulation
