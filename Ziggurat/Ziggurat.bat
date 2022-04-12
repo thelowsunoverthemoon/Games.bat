@@ -8,8 +8,8 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 MODE 40, 20
 CD Music
 CALL :MACROS
-::°±²Û
-::Û is head
+::Â°Â±Â²Ã›
+::Ã› is head
 ::u is player, t is test
 ::only three attacks
 ::Slime Phoenix Seraphim MadWizard CrazedMage Minotaur Banshee
@@ -22,56 +22,56 @@ SET palette[6]=213;0
 SET palette=13;139
 ::Since there is a specific order
 SET "data[Slime]=%col:c=119;244;66%%back:n=1%/^\,3"
-SET "data[Phoenix]=%col:c=237;122;0%%back:n=1%-Û-,2"
-SET "data[Seraphim]=%col:c=109;123;135%%back:n=2%±²Û%back:n=1%%up:n=1%\%back:n=1%%down:n=2%/,5"
-SET "data[Minotaur]=%back:n=2%<}Û{>,3"
-SET "data[Chimera]=%col:c=188;20;20%%back:n=1%}Û{%col:c=117;186;20%-%back:n=3%%down:n=1%%col:c=119;24;9%| |%col:c=117;186;20%\_<,7"
-SET "data[MadWizard]=%col:c=164;66;244%Û%back:n=1%%up:n=1%^,4"
-SET "data[CrazedMage]=%col:c=237;122;0%%back:n=1%<²>%back:n=2%%down:n=1%v,3"
-SET "data[InsaneMaiden]=%col:c=156;55;163%%back:n=1%:Û:%up:n=1%%back:n=3%/:\,4"
-SET "data[CorruptKing]=%col:c=166;201;42%Û%up:n=1%%back:n=2%%col:c=168;16;16%\|/,5"
-SET "data[LunaticConsort]=%col:c=47;11;91%%back:n=1%/Û\%back:n=2%%up:n=1%|%back:n=1%%up:n=1%|,6"
-SET "data[Banshee]=%col:c=66;19;137%%back:n=1%²Û²%back:n=3%%down:n=1%±%next:n=1%±,3"
-SET "data[Ghoul]=%col:c=0;136;18%%back:n=1%±Û±%back:n=3%%down:n=1%_²_,5"
-SET "data[Totem]=Û%back:n=1%%down:n=1%²%back:n=1%%down:n=1%±%back:n=1%%down:n=1%°,1"
-SET "data[Demon]=%col:c=160;25;25%%back:n=1%\Û/%back:n=3%%up:n=1%| |,6"
-SET "data[ThePsychic]=%col:c=107;66;244%Û,7"
+SET "data[Phoenix]=%col:c=237;122;0%%back:n=1%-Ã›-,2"
+SET "data[Seraphim]=%col:c=109;123;135%%back:n=2%Â±Â²Ã›%back:n=1%%up:n=1%\%back:n=1%%down:n=2%/,5"
+SET "data[Minotaur]=%back:n=2%<}Ã›{>,3"
+SET "data[Chimera]=%col:c=188;20;20%%back:n=1%}Ã›{%col:c=117;186;20%-%back:n=3%%down:n=1%%col:c=119;24;9%| |%col:c=117;186;20%\_<,7"
+SET "data[MadWizard]=%col:c=164;66;244%Ã›%back:n=1%%up:n=1%^,4"
+SET "data[CrazedMage]=%col:c=237;122;0%%back:n=1%<Â²>%back:n=2%%down:n=1%v,3"
+SET "data[InsaneMaiden]=%col:c=156;55;163%%back:n=1%:Ã›:%up:n=1%%back:n=3%/:\,4"
+SET "data[CorruptKing]=%col:c=166;201;42%Ã›%up:n=1%%back:n=2%%col:c=168;16;16%\|/,5"
+SET "data[LunaticConsort]=%col:c=47;11;91%%back:n=1%/Ã›\%back:n=2%%up:n=1%|%back:n=1%%up:n=1%|,6"
+SET "data[Banshee]=%col:c=66;19;137%%back:n=1%Â²Ã›Â²%back:n=3%%down:n=1%Â±%next:n=1%Â±,3"
+SET "data[Ghoul]=%col:c=0;136;18%%back:n=1%Â±Ã›Â±%back:n=3%%down:n=1%_Â²_,5"
+SET "data[Totem]=Ã›%back:n=1%%down:n=1%Â²%back:n=1%%down:n=1%Â±%back:n=1%%down:n=1%Â°,1"
+SET "data[Demon]=%col:c=160;25;25%%back:n=1%\Ã›/%back:n=3%%up:n=1%| |,6"
+SET "data[ThePsychic]=%col:c=107;66;244%Ã›,7"
 SET "design1=1 4 4 6 3 3 8 2 2 7 1 1"
 SET "design2=2 2 2 3 3 3 4 4"
 SET "design3=9 4 4 3 3 3 3"
-SET sp[Protect]=1 4 3 3 2 2 1 1,104;171;196,Û
-SET sp[Fireball]=1 1 1,255;168;63,²
-SET sp[Ensnare]=9 8 7 9,145;113;82,±
-SET sp[Lightning]=9 7 9 7 9,46;242;225,°
-SET sp[StoneHammer]=1 1 7 9 6,168;171;175,Û
-SET sp[Aqua]=3 3 3,81;173;198,°
-SET sp[Tenebrae]=7 8 6 9 9 6 8,64;62;104,²
-SET sp[Mask]=1 6 6 6,159;149;188,°
-SET sp[DemonHand]=7 7 9 4 4 6 8,99;29;142,±
-SET sp[DemonFeet]=8 4 4 6 8 8 7 7,99;29;142,±
-SET sp[Penetrate]=8 4 3 9,66;80;244,Û
-SET sp[Serpent]=3 2 2 3 3 4 4 4 3 3 2,105;198;51,²
-SET sp[Unearth]=8 8 4 4 4 4 7,68;29;13,²
-SET sp[Miasma]=7 9 7 8 8 6 6 6,150;172;209,°
-SET sp[Flower]=6 7 9 8 7 6 8 6,35;237;45,±
-SET sp[Entangle]=9 4 3 6 9 4,166;193;168,Û
-SET sp[Dragon]=1 2 1 1 4 4 4 1 1,74;239;192,²
-SET sp[Petrichor]=1 1 3 3 3 3,60;201;119,°
-SET sp[CharmI]=7 7,170;255;0,±
-SET sp[CharmII]=9 9,255;76;0,±
-SET sp[CharmIII]=8 8,110;255;0,±
-SET sp[CharmIV]=6 6,0;255;97,±
-SET sp[IllusionI]=9 3 3 4 4 1 1 2,94;229;179,°
-SET sp[IllusionII]=7 3 3 2 2 1 1 4,94;229;179,°
-SET sp[SongOfTheMoon]=7 7 9 9 6 6 8 8,225;242;121,Û
-SET sp[AstralResurgence]=8 6 6 9 9 9 7,156;206;179,Û
-SET sp[CelestialOrb]=7 7 8 8 6 6 6 9 6 9 9 9 7 7 8,206;229;78,Û
-SET sp[PrayerForLuna]=7 8 6 6 9 9 7,246;255;198,Û
-SET "cl[Magician]=%col:c=51;88;147%²-|%back:n=1%%up:n=1%%ESC%[48;2;127;219;170m%col:c=255;255;255%_%back:n=1%%up:n=1%%ESC%[0m%col:c=255;255;255%_,10,CharmI CharmII CharmIII CharmIV IllusionI IllusionII"
-SET "cl[LunarPriestess]=%col:c=156;206;179%_/%col:c=206;229;78%Û%col:c=156;206;179%\_%back:n=3%%up:n=1%|,1,SongOfTheMoon AstralResurgence CelestialOrb PrayerForLuna"
-SET "cl[Necromancer]=%col:c=78;21;127%Û%back:n=1%%up:n=1%%col:c=255;255;255%*,4,DemonHand DemonFeet Miasma Tenebrae Mask Entangle"
-SET "cl[Druid]=%col:c=215;244;66%%back:n=1%¼%col:c=124;214;21%±%col:c=215;244;66%È%back:n=2%%up:n=1%Ë,3,Flower Ensnare Serpent Dragon Unearth Petrichor"
-SET "cl[Elemental]=%col:c=234;99;3%%back:n=1%~%col:c=255;255;255%Û%col:c=36;234;207%~%back:n=2%%up:n=1%%col:c=37;175;24%~%back:n=1%%down:n=2%%col:c=175;107;23%~,6,Protect Fireball StoneHammer Aqua Lightning Penetrate"
+SET sp[Protect]=1 4 3 3 2 2 1 1,104;171;196,Ã›
+SET sp[Fireball]=1 1 1,255;168;63,Â²
+SET sp[Ensnare]=9 8 7 9,145;113;82,Â±
+SET sp[Lightning]=9 7 9 7 9,46;242;225,Â°
+SET sp[StoneHammer]=1 1 7 9 6,168;171;175,Ã›
+SET sp[Aqua]=3 3 3,81;173;198,Â°
+SET sp[Tenebrae]=7 8 6 9 9 6 8,64;62;104,Â²
+SET sp[Mask]=1 6 6 6,159;149;188,Â°
+SET sp[DemonHand]=7 7 9 4 4 6 8,99;29;142,Â±
+SET sp[DemonFeet]=8 4 4 6 8 8 7 7,99;29;142,Â±
+SET sp[Penetrate]=8 4 3 9,66;80;244,Ã›
+SET sp[Serpent]=3 2 2 3 3 4 4 4 3 3 2,105;198;51,Â²
+SET sp[Unearth]=8 8 4 4 4 4 7,68;29;13,Â²
+SET sp[Miasma]=7 9 7 8 8 6 6 6,150;172;209,Â°
+SET sp[Flower]=6 7 9 8 7 6 8 6,35;237;45,Â±
+SET sp[Entangle]=9 4 3 6 9 4,166;193;168,Ã›
+SET sp[Dragon]=1 2 1 1 4 4 4 1 1,74;239;192,Â²
+SET sp[Petrichor]=1 1 3 3 3 3,60;201;119,Â°
+SET sp[CharmI]=7 7,170;255;0,Â±
+SET sp[CharmII]=9 9,255;76;0,Â±
+SET sp[CharmIII]=8 8,110;255;0,Â±
+SET sp[CharmIV]=6 6,0;255;97,Â±
+SET sp[IllusionI]=9 3 3 4 4 1 1 2,94;229;179,Â°
+SET sp[IllusionII]=7 3 3 2 2 1 1 4,94;229;179,Â°
+SET sp[SongOfTheMoon]=7 7 9 9 6 6 8 8,225;242;121,Ã›
+SET sp[AstralResurgence]=8 6 6 9 9 9 7,156;206;179,Ã›
+SET sp[CelestialOrb]=7 7 8 8 6 6 6 9 6 9 9 9 7 7 8,206;229;78,Ã›
+SET sp[PrayerForLuna]=7 8 6 6 9 9 7,246;255;198,Ã›
+SET "cl[Magician]=%col:c=51;88;147%Â²-|%back:n=1%%up:n=1%%ESC%[48;2;127;219;170m%col:c=255;255;255%_%back:n=1%%up:n=1%%ESC%[0m%col:c=255;255;255%_,10,CharmI CharmII CharmIII CharmIV IllusionI IllusionII"
+SET "cl[LunarPriestess]=%col:c=156;206;179%_/%col:c=206;229;78%Ã›%col:c=156;206;179%\_%back:n=3%%up:n=1%|,1,SongOfTheMoon AstralResurgence CelestialOrb PrayerForLuna"
+SET "cl[Necromancer]=%col:c=78;21;127%Ã›%back:n=1%%up:n=1%%col:c=255;255;255%*,4,DemonHand DemonFeet Miasma Tenebrae Mask Entangle"
+SET "cl[Druid]=%col:c=215;244;66%%back:n=1%Â¼%col:c=124;214;21%Â±%col:c=215;244;66%Ãˆ%back:n=2%%up:n=1%Ã‹,3,Flower Ensnare Serpent Dragon Unearth Petrichor"
+SET "cl[Elemental]=%col:c=234;99;3%%back:n=1%~%col:c=255;255;255%Ã›%col:c=36;234;207%~%back:n=2%%up:n=1%%col:c=37;175;24%~%back:n=1%%down:n=2%%col:c=175;107;23%~,6,Protect Fireball StoneHammer Aqua Lightning Penetrate"
 SET "bullet=%col:c=20;158;173%[!col:c=94;%palette%!#%col:c=20;158;173%] %col:c=20;158;173%"
 FOR /F "tokens=2 delims=[]" %%Q in ('SET cl[') DO (
     SET "classes=!classes! %%Q"
@@ -93,7 +93,7 @@ ECHO %ESC%[?25l
 SET /A "round=enenum=0","y[t]=8","x[t]=6","y[u]=19","x[u]=10","energy=70"
 SET "background="
 TITLE Ziggurat
-<NUL SET /P "=%ESC%[2J%ESC%[2;2HLowsun 2019%ESC%[9;15H%col:c=87;125;130%Û Zi%col:c=20;158;173%gg%col:c=87;125;130%ur%col:c=20;158;173%at Û%ESC%[12;15H[1] Campaign%ESC%[14;15H[2] Boss Rush%ESC%[16;15H[3] Palette"
+<NUL SET /P "=%ESC%[2J%ESC%[2;2HLowsun 2019%ESC%[9;15H%col:c=87;125;130%Ã› Zi%col:c=20;158;173%gg%col:c=87;125;130%ur%col:c=20;158;173%at Ã›%ESC%[12;15H[1] Campaign%ESC%[14;15H[2] Boss Rush%ESC%[16;15H[3] Palette"
 CALL :MAKETEMP 25
 CHOICE /C 123 /N >NUL
 IF %errorlevel% EQU 1 (
@@ -201,10 +201,10 @@ SET "check=0"
 ECHO %ESC%[2J%background%%ESC%[2;2H%col:c=20;158;173%Choose a Palette :
 FOR /L %%R in (1, 1, 6) DO (
     SET /A "check+=6"
-    <NUL SET /P "=%ESC%[5;!check!H%col:c=87;125;130%Û%%RÛ%back:n=1%%down:n=1%"
+    <NUL SET /P "=%ESC%[5;!check!H%col:c=87;125;130%Ã›%%RÃ›%back:n=1%%down:n=1%"
     FOR /L %%E in (1, 1, 9) DO (
         FOR /F "tokens=1-2 delims=," %%G in ('SET /A "54 + %%E0"^&ECHO ^,!palette[%%R]!') DO (
-            <NUL SET /P "=%back:n=1%%down:n=1%!col:c=%%G;%%H!Û"
+            <NUL SET /P "=%back:n=1%%down:n=1%!col:c=%%G;%%H!Ã›"
         )
     )
 )
@@ -219,8 +219,8 @@ FOR /L %%F in (1, 1, %1) DO (
     FOR /F %%G in ('SET /A "!RANDOM! * (9 - 1 + 1) / 32768 + 1"') DO (
         FOR /F %%C in ('SET /A "54 + %%G0"') DO (
             SET /A !dir[%%G]:#=t!
-            SET "background=!background!%ESC%[!y[t]!;!x[t]!H!col:c=%%C;%palette%!Û%ESC%[1X"
-            <NUL SET /P "=%ESC%[!y[t]!;!x[t]!H!col:c=%%C;%palette%!Û%ESC%[1X"
+            SET "background=!background!%ESC%[!y[t]!;!x[t]!H!col:c=%%C;%palette%!Ã›%ESC%[1X"
+            <NUL SET /P "=%ESC%[!y[t]!;!x[t]!H!col:c=%%C;%palette%!Ã›%ESC%[1X"
         )
     )
 )
