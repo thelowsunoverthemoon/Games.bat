@@ -54,7 +54,7 @@ FOR %%L in ("!\n!") DO (
 )
 FOR /L %%G in (1, 1, 34) DO (
     SET /A "rand=!RANDOM!*(30-1+1)/32768+1"
-    SET "ground=!ground!%col:c=[1];[2];[3]%Û"
+    SET "ground=!ground!%col:c=[1];[2];[3]%Ã›"
     FOR /L %%E in (1, 1, 3) DO (
         SET /A "colour=pair[%%E]+(rand*dist[%%E])""
         FOR /F %%X in ("!colour!") DO (
@@ -82,7 +82,7 @@ FOR /L %%# in (1, 1, 1000) DO (
                 SET "total[rain]=!total[rain]:%%R=!"
             ) else (
                 SET "par%%R=%%A;!new!"
-                SET "rain=!rain!%ESC%[%%B;%%AH%col:c=[1];[2];[3]%Þ"
+                SET "rain=!rain!%ESC%[%%B;%%AH%col:c=[1];[2];[3]%Ãž"
                 FOR /L %%E in (1, 1, 3) DO (
                     SET /A "colour=pair[%%E]+((%%B-(30-%%B))*dist[%%E])"
                     FOR /F %%X in ("!colour!") DO (
