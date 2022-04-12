@@ -1,0 +1,35 @@
+Thanks to IcarusLives for inspiration and pure genius
+
+-Theme songs from the Transformers Movie (1986)-
+MegatronStopped.mp3 from https://www.youtube.com/watch?v=kG2tAAj0X-4 cut at 3:40
+UnicronMedley.mp3 from https://www.youtube.com/watch?v=g4c-M4MP0GE
+LightingDarkestHour.mp3 from https://www.youtube.com/watch?v=EUdUqVH5fAk&list=RDg4c-M4MP0GE&index=5
+
+-All spell sounds from https://dota2.gamepedia.com/Item_sounds-
+TotemRegen.mp3 Bloodthorn
+InsaneInvisible.mp3 ShadowAmulet
+LunaticBeam.mp3 HoodOfDefiance
+Aqua.mp3 InfusedRaindrop
+DemonHand.mp3 Nullifier
+DemonFeet.mp3 MaskOfMadness
+Tenebrae.mp3 GhostScepter
+Unearth.mp3 UrnofShadows
+Protect.mp3 Buckler
+Miasma.mp3 SmokeofDeceit
+Ensnare.mp3 BladeMail
+StoneHammer.mp3 BattleFury
+Entangle.mp3 ArmeltOfMordiggian
+Serpent.mp3 Shiva'sGuard
+Dragon.mp3 Eul'sScepterOfDivinity
+Lightning.mp3 Maelstrom
+Fireball.mp3 Dagon
+Penetrate.mp3 Sange
+Flower.mp3 Tango
+Mask.mp3 MagicStick
+Petrichor.mp3 Diffusal Blade
+
+-Death from https://opengameart.org/content/spell-sounds-starter-pack-
+Death.mp3 Explode1.mp3
+
+-LunarPriestess Spells from https://www.soundsnap.com/tags/whisper
+Horror Breath 40-44
