@@ -8,9 +8,15 @@ This is a collection of finished Batch games that aren't just text RPGs. You can
 If you like smaller, more retro games see [Arcade.bat](https://github.com/thelowsunoverthemoon/Arcade.bat).
 
 ## List of Games
+* [neocircuits](neocircuits) : Story-based Match-3 Puzzle
 * [Dodge Dungeon](DodgeDungeon) : Isometric Bullet Dodging Game
 * [Love, Kyoko](LoveKyoko) : Cyberpunk Rogue-like
 * [Prism Song](PrismSong) : Boss-rush Platformer
 * [Soul Lapse](SoulLapse) : Standard JRPG with Gachas
 * [Ziggurat](Ziggurat) : 2 Player Fantasy Rogue-like
 * [girl & the rain](girl&therain) : Story based Rain Simulation
+
+## Game Ideas
+- [ ] Auto Chess
+- [ ] Tower Defense
+- [ ] Deck-building Card Game
