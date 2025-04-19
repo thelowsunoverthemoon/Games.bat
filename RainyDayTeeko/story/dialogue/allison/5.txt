@@ -1,0 +1,108 @@
+1
+@ default
+- Hey
+# Hii...
+- Raining again today is crazy
+# Yeah...do you
+# Ever get that feeling of
+# Being surrounded by
+# So many people
+# But like
+# ...
+# No one really knows you[
+- Yeah
+- I think that's normal for
+- A lot of people, y'know.
+# Maybe but like
+# Everyone has a best friend right[
+# I had my grandpa who
+# I talked to
+@ sad
+# But ever since he passed
+# Like I don't even really
+# Connect with anyone.
+# No one ever even texts me first
+# * checks phone *
+# Not even asking
+# How are you doing[
+# No one reaches out.
+- I mean friends come and go
+- Like you can be best friends
+- And become strangers
+- In a couple years.
+- So it's not
+- Too late or anything.
+- And plus I mean
+- I'm here if you wanna talk.
+# ...
+@ smile
+- And hey, I did text you
+- About Teeko club.
+@ laugh
+# That's true
+# So you're cool if
+# I text you at 3AM to rant[
+- Nah, it's gonna be
+- Me texting you.
+# * laughs * Bring it on.
+GAME 1
+2
+@ default
+# Heya...
+- Pretty gloomy weather, huh[
+# Yeah...
+# Do you
+# Ever get that feeling of
+# Being surrounded by
+# So many people
+# But like
+# ...
+# No one really knows you[
+- Yeah
+- I think that's normal for
+- A lot of people, y'know.
+# Maybe but like
+# Everyone has a best friend right[
+# I had my grandpa who
+# I talked to
+@ sad
+# But ever since he passed
+# Like I don't even really
+# Connect with anyone.
+# No one ever even texts me first
+# * checks phone *
+# Not even asking
+# How are you doing[
+# No one reaches out.
+- I mean friends come and go
+- Like you can be best friends
+- And become strangers
+- In a couple years.
+- So it's not
+- Too late or anything.
+- And plus I mean
+- I'm here if you wanna talk.
+# ...
+@ smile
+- And hey, I did text you
+- About Teeko club.
+@ laugh
+# That's true
+# So you're cool if
+# I text you at 3AM to rant[
+- * laughs * Bring it on.
+GAME 2
+3
+@ default
+- Hey
+# Hii...
+- Raining again today is crazy
+# Yeah...
+@ sad
+# * checks phone *
+- Why do you keep checking you phone[
+@ default
+# Oh, nothing.
+# Anyways you wanna play[
+- Sure.
+GAME 3

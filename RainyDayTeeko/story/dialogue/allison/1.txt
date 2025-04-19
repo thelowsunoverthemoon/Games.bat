@@ -1,0 +1,26 @@
+1
+@ smile
+# Man, you look confident.
+# Now I'm scared.
+@ laugh
+# Don't wanna look bad in front of Jackie
+@ smile
+# Wanna go first[
+CHOICE "You reply" "Nah." "I'll take all the help I get."
+11
+# Oh, you ARE confident.
+# * checks phone *
+# You ready[
+- Let's play.
+GAME 1
+12
+@ laugh
+# Okay, I respect that.
+@ smile
+# * checks phone *
+# You ready[
+- Let's play.
+GAME 2
+
+
+

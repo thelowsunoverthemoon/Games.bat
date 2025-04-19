@@ -1,0 +1,39 @@
+1
+@ default
+# Hi hi...
+- Hey, how are you[
+@ smile
+# Pretty good
+# Just swamped right now with work..
+@ default
+- Oh yeah, I heard comp sci is rough
+# I guess...
+# Honestly it's not really the courses...
+CHOICE "You reply" "I see I see." "Yeah."
+11
+# It's just kinda stressful right now.
+GAME 1
+12
+# ...
+# Yeah...
+GAME 2
+2
+@ default
+# Hi...
+- Hey, how are you[
+@ smile
+# Pretty good, just swamped.
+@ default
+CHOICE "You reply" "Aw that sucks." "Homework["
+21
+# ...
+# Yeah...
+GAME 2
+22
+# I guess...
+- Yeah, I heard comp sci is rough
+# Honestly it's not really the courses...
+GAME 1
+
+
+

@@ -1,0 +1,92 @@
+1
+@ smile
+# Hey, you showed up again.
+# Ready to lose[
+- Haha.
+@ default
+# Sorry about yesterday, by the way.
+- Oh, no need to apologize.
+- I mean, I appreciate you opening up.
+- It's good to talk about
+- How you're feeling.
+# Yeah, I guess.
+# It's just that these days
+@ sad
+# I keep thinking about the future.
+# Like what happens after this[
+- Yeah...I think about that a lot too.
+# My mom got married
+# Right after highschool.
+# And look where that got her.
+# It's not even like my dad cheated
+# Or at least I don't think so.
+# She just never talks about him.
+# I don't know.
+- She sounds strong.
+# That's what I used to think.
+# But like I don't even know
+# What my dad looked like.
+# Oh well.
+# Thanks for listening to my rant
+# By the way.
+@ smirk
+# Wanna play[
+- Definitely.
+GAME 1
+2
+@ smile
+# Back for more punishment[
+- I was going easy on you last time.
+# Whatever you say.
+# Man, I have another paper due.
+# I swear, it just sneaks up on you.
+CHOICE "You reply" "For real." "I'm sure you can handle it."
+21
+# But hey, here I am.
+- Haha yup, here you are playing Teeko.
+# I'll still crush you though.
+- Not a chance.
+@ smirk
+# Bet[ Loser pays for a meal.
+- Bet.
+# Let's play.
+GAME 2
+22
+# Probably...
+# But at the same time
+# It's like I'm nearly done college.
+@ sad
+# Like what happens after this[
+- Yeah...I think about that a lot too.
+# My mom got married
+# Right after highschool.
+# And look where that got her.
+# It's not even like my dad cheated
+# Or at least I don't think so.
+# She just never talks about him.
+# I don't know.
+- She sounds strong.
+# That's what I used to think.
+# But like I don't even know
+# What my dad looked like.
+# Oh well.
+# Thanks for listening to my rant
+# By the way.
+@ smirk
+# Wanna play[
+- Definitely.
+GAME 1
+3
+@ sad
+# Hey.
+- Hey.
+# Rain’s really coming down today.
+- Fits the mood.
+# ...
+# What am I even doing here.
+# School. Networking. This.
+# I don't even like biology...
+- ...
+- Wanna play[
+# Yeah. Might as well.
+GAME 3

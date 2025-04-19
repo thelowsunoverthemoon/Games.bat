@@ -1,0 +1,53 @@
+1
+@ default
+# Heyy...
+- Hey, how's it going[
+@ sad
+# Ughh...
+# Just got rejected
+# From another internship..
+# It's fine. Whatever..
+- Yeah, it sounds exhausting.
+- I mean, I know a lot
+- Of people who are also struggling
+- To find one.
+# It doesn't seem like it..
+# Just look on Linkedin and
+# Everyone is at big tech
+# Getting big offers...
+# Meanwhile here I am just
+# Finishing school...
+# No idea what I'm doing after this..
+- To be fair, it's Linkedin
+- The people who post there obviously
+- Are the ones who have great offers
+- Or else why would they post[
+- It's just a horrible echo chamber.
+# Part of that's true but...
+# Still.
+# Maybe it's just the
+# Expectation I have for myself.
+- Like I guess the question is
+- Do you want to work for big tech[
+- Or is it just other people's
+- Expectations for you[
+# ...
+# I wish I knew...
+GAME 1
+2
+@ smile
+# Oh hey, wanna play[
+- Sure, I'm down.
+@ sad
+# ...
+- Something up[
+# Ughh...
+# Just got rejected
+# From another internship..
+# It's fine. Whatever..
+@ default
+- Oh, alright.
+- Anyways, you wanna go first[
+# Nah...
+GAME 2
+

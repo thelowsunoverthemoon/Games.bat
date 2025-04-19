@@ -1,0 +1,27 @@
+1
+@ default
+- Hey, nice to meet you.
+# Hi...
+- What's your major[
+# Um...computer science...
+# It's as fun as it sounds..
+# You play Teeko[
+- I'm learning.
+@ smile
+# It's a fun game, it's kinda like
+# Tic Tac Toe but better.
+CHOICE "You ask" "You any good[" "Why don't we play["
+11
+# No no I play for fun.
+- Oh we should play then,
+- You'll beat me for sure.
+# Okay...
+GAME 1
+12
+- Okay...
+- You'll probably beat me..
+GAME 2
+
+
+
+

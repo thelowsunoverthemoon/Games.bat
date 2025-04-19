@@ -1,0 +1,79 @@
+1
+@ default
+- Hey.
+# Hey, what's up.
+@ smile
+- Another rainy day, it's depressing.
+# Tell me about it.
+- How was the bio paper[
+# Just as painful as I expected.
+# And to think I have to do that for
+@ sad
+# Another 2 years.
+# ...
+# You ever get tired of pretending
+# You’ve got it figured out[
+# I keep telling myself that
+# I want to be independent.
+# But like...
+# I don't even know anymore.
+- * You nod *
+# Like, I never even had a dad.
+# And I was like, that's fine, whatever.
+# I don’t need him.
+# But these days… I don't know.
+# Feels like I blinked and
+# I'm almost done school.
+# Now I don't even know
+# What I want anymore.
+- Right.
+# It's like I'm just rushing through life
+# For something I don't even want.
+- I mean
+- It’s okay not to know what you want.
+- Especially when you’ve spent so long
+- Just trying to hold yourself together
+- I feel like
+- You don't have to 
+- Figure everything out right now.
+@ smile
+# I guess.
+@ smirk
+# Sorry I didn't mean to be so depressing
+# Let's just play.
+GAME 1
+2
+@ default
+# Ready to get crushed again[
+- Haha, you wish.
+@ smirk
+- Another rainy day, it's depressing.
+# Tell me about it.
+- How was the bio paper[
+# Just as painful as I expected.
+# And to think I have to do that for
+@ sad
+# Another 2 years.
+# ...
+# You ever get tired of pretending
+# You’ve got it figured out[
+# I keep telling myself that
+# I want to be independent.
+# But...
+# I don't even know anymore.
+- * You nod *
+# Like my mom did her best but like
+# I don't know.
+@ smirk
+# Sorry I didn't mean to be so depressing
+# Let's just play.
+GAME 2
+3
+@ default
+- Hey.
+# Hey.
+- Another rainy day, it's depressing.
+# Tell me about it.
+# Ready to get crushed again[
+- Ha, you wish.
+GAME 3

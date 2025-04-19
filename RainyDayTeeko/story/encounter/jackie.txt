@@ -1,0 +1,5 @@
+-1-
+# As you clear the board, Allison says,
+# $Since you're "new," why don't I introduce you to some members[+
+# "$Jackie," this is the new guy. New "guy," Jackie.+
+GAME Jackie

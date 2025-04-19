@@ -1,0 +1,22 @@
+-1-
+# You stand in the "hallway," looking down at the Teeko Club door. But something pulls at you.
+CHOICE "You decide to" "Look out the window" "Sit on the bench outside"
+-11-
+# You rest your arms on the window "ledge," forehead gently against the glass. Outside, the campus is soaked in grey-blue hue rain that makes everything soft and blurry. You watch students move between buildings like pieces on a "board," umbrellas "bobbing," footsteps leaving small prints on the concrete.
+# "Inside," it’s warm. The window makes a kind of quiet "barrier," like you’re observing the world more than living in it.
+CHOICE "You snap back to reality." "Go back to the Teeko club"
+-12-
+# You sit on the bench just outside the "building," the metal damp beneath you but not enough to matter. The rain has slowed to a mist "now," drifting sideways in the "wind," catching the light like static. People pass by in twos and "threes," jackets "zipped," heads down. No one really notices you.
+# The cold seeps in "slowly," just enough to make you feel here. You watch the trees shift in the "wind," their branches moving like they're reaching for something. Time feels stretched out. You’re not playing a "game," not "studying," not going anywhere in particular. Just sitting. You wonder how long you could sit here before anyone wonders where you went.
+# Suddenly, you notice Jackie passing by, clutching her bag under her hood. You wave at her.
+# {Wanna play[ I brought the board.+
+CHOICE "You don't see why not." "Play with Jackie."
+-111-
+# You return to the Teeko "room," and smile as you see Allison, laughing as she plays. You notice Jackie isn't here yet. On your "left," Mia is adjusting the flower on her head.
+CHOICE "You go and play with :" "Allison" "Mia"
+-1111-
+GAME Allison
+-1112-
+GAME Mia
+-121-
+GAME Jackie

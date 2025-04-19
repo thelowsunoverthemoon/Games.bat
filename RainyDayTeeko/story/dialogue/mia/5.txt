@@ -1,0 +1,72 @@
+1
+@ sad
+# ...
+- Are you alright[
+# Honestly, I don't know anymore.
+# I just...
+# Feel so lost all the time.
+# I'm just staring at my laptop
+# Coding some random program
+# And it's like I'm just
+# Standing still.
+# My friend Emma just got an
+# Internship at big tech
+- Oh, that's great.
+# Right[ I'm happy for her...
+# But like deep down I'm just
+# Kind of...
+# Jealous...
+# ...
+# Ugh I'm such a bad friend.
+- Hmmm...
+- I think part of that is normal..
+- Like, your friend has something
+- You worked really hard to get.
+# It just feels like
+# I'm so behind.
+# Everyone else is running,
+# I'm stuck here.
+- ...
+@ default
+- It sounds cliche but
+- Everyone has there own journey right[
+- Especially when comparing to to others.
+- Some people might go faster,
+- Some people might go slower.
+- All that matters is your own pace.
+# Yeah but at this point...
+# Will I even make it[[...
+- I'm sure you can.
+- It's like the start of your career.
+@ smile
+- And Allison told me how smart you are.
+- I'm sure you've got this.
+# ...
+# Thanks.
+# One last game[
+- For sure.
+GAME 1
+2
+@ sad
+# ...
+- Hey, up for a game[
+# ...
+# Honestly, I don't know anymore.
+# I just...
+# Feel so lost all the time.
+- Are you alright[
+# Yeah....
+# My friend Emma just got an
+# Internship at big tech
+- Oh, that's great.
+# Right[ I'm happy for her...
+# But like deep down I'm just
+# Kind of...
+# Jealous...
+# ...
+# Ugh I'm such a bad friend.
+- Hmmm...
+- Wanna play[
+# ...
+GAME 2
+

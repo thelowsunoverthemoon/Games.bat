@@ -1,0 +1,46 @@
+1
+@ smile
+# Heyy...
+- Hi, ready for more Teeko[
+# Yeahhh just to
+# Get my mind off work
+CHOICE "You ask" "Coursework[" "Not courses right["
+11
+@ default
+# Not really...
+GAME 2
+12
+@ default
+# Yeah....
+# Applying for all these internships
+# Not even knowing if
+# These big companies even read them
+- I heard the
+- Job market isn't great right now
+# Still...
+# All my friends are getting internships
+# Oh well...
+GAME 1
+2
+@ smile
+# Heyy...
+- Hi, ready for more Teeko[
+# Yeahhh just to
+# Get my mind of work
+CHOICE "You ask" "Let's play." "What kind of work["
+21
+GAME 2
+22
+@ default
+# It's just
+# Applying for all these internships
+# Not even knowing if
+# These big companies even read them
+- I heard the
+- Job market isn't great right now
+# Still...
+# All my friends are getting internships
+# Oh well...
+GAME 1
+
+

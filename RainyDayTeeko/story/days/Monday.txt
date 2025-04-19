@@ -1,0 +1,25 @@
+-1-
+# The rain taps softly against the windows of the student union "building," creating a hushed rhythm that muffles the usual campus bustle. "Outside," the sky is gray and "heavy;" the last bits of daylight have faded into a sleepy haze. A few students scurry across the "courtyard," hoods pulled "low," "umbrellas up," sneakers splashing through puddles.
+# The Teeko club room is a small space on the second floor. It smells faintly of coffee and old "textbooks," with mismatched chairs and slightly scuffed tables scattered around. A lofi playlist hums quietly from a nearby speaker : soft beats and mellow "melodies," the kind of music that makes the rain feel distant. The fluorescent lights overhead have a warm yellow glow that makes the room feel almost cozy.
+# You just joined the club tonight. You hadn’t planned on coming, but here you "are," standing near the "doorway," feeling the weight of your damp jacket and trying to decide where to sit. The room is practically empty.
+CLS
+# The realization had hit you. You were nearly done college. You thought back to the events you were too lazy to "attend," the clubs you passed "by," the people you never followed up with. It wasn’t "regret," not really. Just the sense that you had never really done too much. And "now," as everything tilted towards the next "chapter," you wondered how many moments you’d let slip by.
+# In the far left "corner," you spot "Allison," the club’s president. Her "bright," animated voice carries easily over the low hum of conversation, and she's leaning halfway across the table with a playful grin. Across from her sits a girl with deep purple hair and a half-bored "expression," idly spinning a token between her fingers. Her sharp eyes flick toward you "briefly," but returns to her fidgeting.
+# In the right "corner," there’s a table with an empty chair and a girl with auburn hair sitting alone. She’s already started setting up the "board," her hands lightly trembling. You notice that she keeps sneaking glances toward the larger tables.
+CHOICE "You walk to" "The left corner" "The right corner"
+-11-
+# You make your way towards the left corner. As you "approach," Allison leans back in her "chair," tossing a Teeko token into the air and catching it. The other girl gives you a brief glance and doesn’t say "anything," waiting for you to sit. Allison says,
+# $You're new aren't you[ Why don't you play a couple rounds[+
+CHOICE "You sit." "Agree to play with Allison" "Ask the other girl to play"
+-12-
+# You make your way towards the right corner. As you "approach," she glances up "quickly," eyes slightly wide. Her fingers stiffen on the game piece she’s "holding," as she adjusts the flower on her head.
+CHOICE "You decide to" "Ask the girl to play" "Play with Allison"
+-111-122-
+GAME Allison
+-112-
+# Allison grins.
+# "$Oh," you got a challenger Jackie.+
+# "$Jackie," this is the new guy. New "guy," Jackie.+
+GAME Jackie
+-121-
+GAME Mia

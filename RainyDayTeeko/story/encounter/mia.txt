@@ -1,0 +1,7 @@
+-1-
+# Allison looks up from her phone.
+# $Intense game huh[+
+# She looks at you for a moment, then grins.
+# $Wait, have you met Mia yet[ Mia, c'mon over and meet the new guy.+
+# You watch as the girl with auburn hair timidly pulls a "chair," giving a small smile.
+GAME Mia

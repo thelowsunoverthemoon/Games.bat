@@ -1,0 +1,5 @@
+-1-
+# You notice Allison peering over your shoulder. She grins.
+# $Ohh so you do know how to play[+
+# $Why don't we play a "round," just you and me["
+GAME Allison

@@ -1,0 +1,12 @@
+art ----------------
+Allison -> https://roughsketch.en-grey.com/Entry/31/
+Jackie  -> https://roughsketch.en-grey.com/Entry/81/
+Mia     -> https://roughsketch.en-grey.com/Entry/18/
+
+then converted to escape sequences with varying sizes using
+chafa --format symbols --optimize 9 --color-extractor median --dither diffusion --color-space din99d --symbols half image.png
+
+music --------------
+bikesatthepier.mp3 -> bikes at the pier -> bikes at the pier, Nogmyx
+dreading.mp3       -> Dreading          -> One Million Flowers, Hernán Perez
+peacefulnights.mp3 -> Peaceful Nights   -> Peaceful Nights, Yasu room

@@ -1,0 +1,46 @@
+1
+@ smile
+# Alright, Teeko time.
+# How you doing[
+- Not bad. You[
+# Good, good. You playing today[
+- Of course.
+# * checks phone for a bit *
+CHOICE "You say" "Oh, something up[" "You ready["
+11
+@ happy
+# Oh yeah, just texting someone.
+- Nice, nice.
+# Anyways, ready to get destroyed[
+- Bring it on.
+GAME 1
+12
+@ happy
+# Yup.
+# Sorry about that, just texting someone.
+# Anyways, ready to get destroyed[
+- Bring it on.
+GAME 3
+2
+@ smile
+# Alright, Teeko time.
+# You playing today[
+# Or just here for the vibes.
+- Playing of course.
+# Good, good.
+# * checks phone for a bit *
+CHOICE "You say" "You good[" "You ready["
+21
+@ happy
+# Yup, just texting someone.
+- Nice, nice.
+# Anyways, ready to get destroyed[
+- Bring it on.
+GAME 2
+22
+@ happy
+# Yup.
+# Sorry about that, just texting someone.
+# Anyways, ready to get destroyed[
+- Bring it on.
+GAME 3

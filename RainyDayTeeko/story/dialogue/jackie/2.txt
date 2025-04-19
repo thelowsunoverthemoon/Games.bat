@@ -1,0 +1,50 @@
+1
+@ default
+- Hey what's up[
+# Meh, could be better.
+CHOICE "You ask" "Oh, something up[" "Ah, you'll feel better after winning"
+11
+@ sad
+# Yeah, just tired.
+# Was up till two last night.
+- Damn, watching a show[
+# Mmm ya.
+@ smirk
+- Don't worry, I'll go easy on you.
+# * laughs * You couldn't beat me anyway.
+GAME 1
+12
+@ smirk
+# Hey, don't give me a pity win.
+# Not like you can beat me anyway.
+- Ha, we'll see about that.
+GAME 2
+2
+@ smirk
+# Ready to get beat[
+- I was going easy on you last time.
+# Oh yeah[ Let's see it.
+CHOICE "You reply" "Nah." "Oh, you'll regret that."
+21
+@ default
+# Wow, way to hype it up.
+GAME 3
+22
+@ smirk
+# Haha, we'll see.
+GAME 2
+3
+@ default
+# Hey.
+# Another rainy day huh[
+- Yeah.
+CHOICE "You add" "Not a rain fan, huh[" "Yeah, it sucks"
+31
+# Ya, it just makes stuff depressing.
+- Don't worry, I'll go easy on you.
+@ smirk
+# Ha, we'll see about that.
+GAME 2
+32
+- Right[ Everything's wet too.
+GAME 3

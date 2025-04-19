@@ -1,0 +1,94 @@
+1
+@ laugh
+# Heyo, back at Teeko club huh[
+- Ya, I'm a Teeko addict now.
+@ smile
+# Man, everyone's so quiet today.
+# It's probably the rain
+CHOICE "You reply" "Right["  "Hey, you seem to be in a good mood."
+11
+# * checks phone *
+# Rain never really bothered me.
+# I'd just stay home and play board games
+- That's nice. You have a sibling[
+@ sad
+# Nah
+# I'm an only child.
+@ laugh
+# Anyways, let's play.
+# Hope you're ready to lose.
+GAME 2
+12
+# Me[ Yeah, I guess.
+# * checks phone *
+# Rain never really bothered me.
+# I'd just stay home and play board games
+- That's nice. You have a sibling[
+@ sad
+# Nah, it was my grandpa.
+# He was a pretty cool guy.
+@ laugh
+# Anyways, let's play.
+# Hope you're ready to lose.
+GAME 1
+2
+@ laugh
+# Heyo, back at Teeko club huh[
+- Ya, might stop coming though.
+@ smile
+# Oh really[
+- Yeah, competitions too easy.
+# Nah I've just been going easy on you.
+# * checks phone *
+# Man, everyone's so quiet today.
+# It's probably the rain
+CHOICE "You reply" "Right["  "Hey, you seem to be in a good mood."
+21
+# Rain never really bothered me.
+@ sad
+# I'd just stay home and play board games
+- That's nice.
+@ laugh
+# Anyways, let's play.
+# Hope you're ready to lose.
+GAME 3
+22
+# Me[ Yeah, I guess.
+# * checks phone *
+# Rain never really bothered me.
+# I'd just stay home and play board games
+- That's nice. You have a sibling[
+@ sad
+# Nah, it was my grandpa.
+# He was a pretty cool guy.
+@ laugh
+# Anyways, let's play.
+# Hope you're ready to lose.
+GAME 1
+3
+@ laugh
+# Welcome back to Teeko club
+- Yup, wouldn't miss it.
+@ smile
+# Man, quiet day today.
+- Probably cause of the rain.
+# * checks phone *
+# Rain never really bothered me.
+# I'd just stay home and play board games
+CHOICE "You reply" "You have a sibling["  "Oh nice."
+31
+@ sad
+# Nah, it was my grandpa.
+# He was a pretty cool guy.
+@ laugh
+# Anyways, let's play.
+# Hope you're ready to lose.
+GAME 2
+32
+@ default
+# *checks phone again *
+@ smile
+# Let's play.
+# Hope you're ready to lose.
+GAME 3
+

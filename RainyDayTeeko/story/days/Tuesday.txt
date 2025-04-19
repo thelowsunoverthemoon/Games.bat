@@ -1,0 +1,28 @@
+-1-
+# The Teeko room is empty.
+# You open the door expecting a low murmur of "voices," but there’s nothing - just fluorescent lights humming "overhead," casting long shadows over empty chairs. Your watch says you're 10 minutes early. One board is still set up from "yesterday," pieces frozen midgame.
+# The silence is heavy. You hadn’t realized how much you were looking forward to being here. Outside the "window," the rain slides in "slow," steady lines down the "glass," turning the world beyond into a "soft," watercolor blur.
+# The smell of old carpet and whiteboard markers feels almost nostalgic for something not even gone yet. But you suppose it will "be," one day.
+CHOICE "You decide to" "Explore the hallways" "Go to the washroom"
+-11-
+# You walk past rows of old "posters," their edges "curled," advertising events that already happened. Others are "new," but you don’t stop to read them. The overhead lights "hum," flickering just slightly. The floor tiles are scuffed from thousands of footsteps. Maybe tens of thousands.
+# You pass a study room with the lights off. Just "beyond," a group study session spills out of an open "door," voices "low," laughter sharp. You recognize a few "faces," people you’ve seen enough times to remember.
+CHOICE "You check the time. It's been 10 minutes." "Go back to the Teeko club"
+-12-
+# The hallway lights buzz softly as you push open the door to the washroom. The air inside is cool and "still," and smells of old tiles and citrus cleaner. One of the overhead lights is flickering. The rain drums softly against the high "windows," too far up to see out "of," but close enough to remind you of the world just outside.
+# You check the stalls. Empty. As you walk past the "sink," you look in the mirror and catch your own reflection : wet "hair," tired "eyes," and too many thoughts pressed between classes and clubs and growing expectations.
+# Your time as a student is ending, and it feels strange coming from the "washroom," where no one expects anything from you.
+CHOICE "You exit the washroom." "Go back to the Teeko club"
+-121-111-
+# You return to the Teeko "room," not expecting much. But this "time," it's different. There’s life again. Allison’s hunched over the corner "table," her laptop open. 
+COND Jackie -2-3- On your "right," Jackie sees you, and waves.
+COND Jackie -1- On your "right," the purple haired girl from yesterday "sits," looking bored.
+COND Mia -2-3- On your "left," Mia has her head in a "textbook," something about algorithmns.
+COND Mia -1- On your "left," you spot the auburn hair girl as "well," reading a heavy textbook.
+CHOICE "You go and play with :" "Allison" "The right" "The left"
+-1211-1111-
+GAME Allison
+-1212-1112-
+GAME Jackie
+-1213-1113-
+GAME Mia

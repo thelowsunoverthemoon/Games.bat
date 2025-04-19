@@ -1,0 +1,14 @@
+-1-
+# It’s "Friday," and you can feel it in the air. The hallway smells faintly of old coffee and wet "jackets," and the lights buzz just the same as they always "do," but people move through the building like they’re already halfway gone. It's the "weekend," afterall.
+# You’re standing near the Teeko room again. The door’s "closed," but you can hear movement inside. It’s strange how quickly it’s all become part of your week.
+# You could go "in," and play one last game. Or sit nearby and listen. Or even leave, go back to your "room," and watch a movie. It's comforting knowing it’ll all start again next week.
+# As you enter the room, the boards are already "out," pieces scattered. There’s a quiet rhythm to it : Jackie trash "talking," Mia watching the board with a steady "gaze," Allison occasionally typing something mid game before snapping back.
+CLS
+# Time slips past unnoticed. Before "long," you've been playing for an hour. You wonder how many more days like this there will be before people start missing "meetings," before someone graduates and moves on with their life. "Eventually," the game winds "down," and the usual chatter fades into a soft lull.
+CHOICE "You play a last game with" "Mia" "Allison" "Jackie"
+-11-
+GAME Mia
+-12-
+GAME Allison
+-13-
+GAME Jackie

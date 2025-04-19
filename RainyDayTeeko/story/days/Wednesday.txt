@@ -1,0 +1,17 @@
+-1-
+# The rain hasn't let up all day. It started as a whisper against your window when you woke up. By the time you’re on "campus," it was a full chorus. People "rush to their classrooms," heads "bowed," shoulders tight.
+# "Outside," the rain presses softly against the windows. The campus looks "muted," like it’s been dipped in grayscale. You used to dream about what college would be like. You didn’t think about what it would feel like to be almost done.
+# It’s only your third day at Teeko Club, but the room already feels familiar. "Inside," the club space is "warm,", and you shake the water from your jacket and watch it splatter across the floor. The rain drums against the "windows," a steady backdrop to the murmured conversations and the soft click of pieces against the board.
+CLS
+COND Jackie -2-3- On your "left," Jackie glances up from where she’s setting up a "match," giving you a casual nod.
+COND Jackie -1- On your "left," the purple haired girl from yesterday seems like she’s setting up a match.
+COND Mia -2-3- On your "right," Mia has her eyes "closed," deep in thought.
+COND Mia -1- On your "right," you spot the auburn hair girl as "well," sitting on her own.
+# Allison sits cross-legged on one of the lounge "chairs," texting something on her phone.
+CHOICE "You go to :" "Allison" "The left" "The right"
+-11-
+GAME Allison
+-12-
+GAME Jackie
+-13-
+GAME Mia

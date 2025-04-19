@@ -1,0 +1,24 @@
+1
+@ smile
+# Hey, wait up.
+- Forgot something[
+# Look, I think you're a cool person.
+# And it's just nice to talk to
+# Someone that actually listens.
+- Oh, that's nice to hear.
+@ smirk
+# And you're not that good at Teeko
+# But maybe you're better
+# At trying out pastries[
+# I was going to check out this new
+# Cafe over the weekend.
+# You wanna tag along[
+@ surprise
+- Of course, that sounds great.
+@ happy
+# Better not embarass me in public
+- * laughs * I should be worried.
+# Text me your schedule[
+- Yup, see ya soon.
+
+

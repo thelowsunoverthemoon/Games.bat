@@ -1,0 +1,6 @@
+Rules of Teeko
+- Each turn, you can move any of your tokens (blue triangle) one step in any direction (cardinals + diagonals) not blocked by other tokens
+- To do this, select your token with WASD and confirm it with P. Then you can move it to a valid position by using WASD and P again. To unconfirm a token, press P on itself.
+- The goal of the game is to get your tokens into a line, column, diagonal, or square of 4.
+- After you move, the enemy will move.
+- Repeat until the game finishes

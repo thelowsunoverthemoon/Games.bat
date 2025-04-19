@@ -1,0 +1,38 @@
+1
+@ default
+CHOICE "You sit down." "Nice to meet you." "Hey, what's up["
+11
+@ smile
+# Yeah, you too.
+# You any good?
+CHOICE "You reply" "Hmm...I think I can beat you." "Nah, I'm new to the game."
+111
+@ smirk
+# Confident huh?
+# We'll see about that.
+# Let's play.
+GAME 2
+112
+# That's fine.
+# Here, I'll go easy on you this time.
+GAME 3
+12
+# Not much, stuck in a board game club.
+# Seeing that you're also here,
+# You're not doing much either, huh?
+CHOICE "You reply" "Yup, I've got no life." "Hey, I thought Teeko seemed fun."
+121
+@ smirk
+# * chuckles * Yeah, looks like it.
+# Let's play a game.
+# I'll go easy on you.
+# Might even let you win.
+GAME 1
+122
+@ smirk
+# We'll see about that once I crush you.
+# Let's play
+GAME 1
+
+
+

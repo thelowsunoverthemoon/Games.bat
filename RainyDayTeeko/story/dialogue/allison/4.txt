@@ -1,0 +1,84 @@
+1
+@ smile
+# Hey, how are ya[
+- Pretty good. You[
+@ default
+# Could be better.
+- Hmm what's up[
+# ...
+# I don't know, I mean
+# With all the rain I've just been
+@ sad
+# Thinking a lot about my grandpa.
+# ...
+# He passed back in June.
+- Oh I'm sorry to hear that.
+- What was he like[
+# He was great.
+# It's just the rain right now, I think.
+# Cause we used to play board games
+# Together when it rained.
+# And now like
+# It sounds dumb but I just don't even
+# Have people to talk to.
+# * checks phone *
+- I mean if you ever want to talk
+- I'm here.
+- Though I'm sure I'm not at
+- The top of the list.
+@ smile
+# Thanks, that's sweet.
+@ laugh
+# Ready to play[
+GAME 1
+2
+@ smile
+# How's it hanging[[[
+- Good as always. You[
+@ default
+# Could be better.
+- Hmm what's up[
+# ...
+# I don't know, I mean
+# With all the rain I've just been
+@ sad
+# Thinking a lot about my grandpa.
+# ...
+# He passed back in June.
+- Oh I'm sorry to hear that.
+- What was he like[
+# He was great.
+# It's just the rain right now, I think.
+# Cause we used to play board games
+# Together when it rained.
+# * checks phone *
+- I mean if you ever want to talk
+- I'm here.
+- Though I'm sure I'm not at
+- The top of the list.
+@ smile
+# Thanks, that's sweet.
+@ laugh
+# Ready to lose[
+GAME 2
+3
+@ smile
+# Hey, how are ya[
+- Pretty good. You[
+@ default
+# Could be better.
+- Hmm what's up[
+# ...
+# I don't know, I mean
+# With all the rain I've just been
+@ sad
+# Thinking a lot about my grandpa.
+# ...
+- Oh I'm sorry to hear that.
+- Wanna play[
+- Get your mind off things[
+@ smile
+# Thanks.
+@ laugh
+# Ready to play[
+GAME 3
